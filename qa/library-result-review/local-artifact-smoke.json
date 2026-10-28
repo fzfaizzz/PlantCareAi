@@ -1,0 +1,17 @@
+{
+  "kind": "Actual existing local artifact smoke check; generated illustration, not accuracy evaluation",
+  "status": "uncertain",
+  "engine": "local_tensorflow",
+  "public_plant": null,
+  "public_condition": null,
+  "care": [],
+  "observations": [],
+  "actual_nearest_label": {
+    "class_id": "Corn___Common_rust",
+    "plant": "Corn",
+    "condition": "Common Rust",
+    "score": 41.4
+  },
+  "labels_loaded": 8,
+  "elapsed_seconds": 13.66
+}

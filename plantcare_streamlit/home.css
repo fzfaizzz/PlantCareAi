@@ -1,0 +1,51 @@
+/* Home art direction is contained here; the shared navbar remains unchanged. */
+.home-stage{container-type:size;position:relative!important;isolation:isolate;width:100vw!important;max-width:none!important;height:calc(100svh - 104px);min-height:0!important;margin:0 calc(50% - 50vw)!important;overflow:clip!important;padding:0!important}
+.home-stage .home-copy{position:absolute!important;inset:6% 0 auto!important;width:100%;padding:0 20px;text-align:center;z-index:2}
+.home-stage .home-copy h1{max-width:1250px!important;width:100%;font-family:PlantTight,PlantInter,Arial,sans-serif!important;font-size:clamp(32px,min(5.35vw,9.2cqh),86px)!important;font-weight:750!important;line-height:1.025!important;letter-spacing:-.045em!important;margin:0 auto 2.5cqh!important;padding:0!important;color:#080b08!important}
+.home-stage .home-copy p{font-family:PlantInter,Arial,sans-serif;font-size:clamp(12px,min(1.4vw,2.7cqh),22px)!important;line-height:1.5!important;color:#696a6d!important;margin:0 auto!important;max-width:850px;font-weight:400}
+.home-stage .home-carousel{position:absolute!important;inset:37.5% 0 auto!important;width:100%!important;height:44%!important;overflow:clip!important;touch-action:pan-y;cursor:grab;z-index:3;contain:layout style}
+.home-stage .home-carousel:focus-visible{outline:2px solid #78a367;outline-offset:-3px}
+.home-stage .home-carousel.is-dragging{cursor:grabbing}
+.home-stage .home-strip{display:flex;gap:1.1vw;align-items:center;width:max-content;height:100%;animation:none!important;transform:none!important;will-change:auto}
+.home-stage .home-strip.is-driven{display:block;position:relative;width:100%;height:100%}
+.home-stage .home-leaf-card{position:relative;display:block;flex:none;width:13.1vw;height:82%;border:0!important;border-radius:0!important;transform:none;background:#3e6128;overflow:hidden;isolation:isolate;text-decoration:none!important;will-change:transform;user-select:none;-webkit-user-select:none;box-shadow:none!important}
+.home-stage .is-driven .home-leaf-card{position:absolute;left:0;top:0}
+.home-stage .home-leaf-card>img{position:absolute;inset:0;display:block;width:100%!important;height:100%!important;object-fit:cover;pointer-events:none;transition:transform .5s cubic-bezier(.2,.65,.2,1)}
+.home-stage .home-leaf-card:hover>img{transform:scale(1.035)}
+.home-stage .home-leaf-card:after{content:'';position:absolute;inset:45% 0 0;background:linear-gradient(transparent,#0b2403b8);z-index:0}
+.home-stage .leaf-card-label{position:absolute!important;left:clamp(10px,1.05vw,17px);right:8px;bottom:var(--label-bottom,20px)!important;display:flex!important;gap:clamp(8px,1vw,15px);align-items:center;color:white!important;z-index:2;white-space:nowrap;text-shadow:0 1px 4px #17330b70}
+.home-stage .leaf-card-label strong{display:block;font-family:PlantInter,Arial,sans-serif;font-weight:650;font-size:clamp(11px,1.12vw,18px);line-height:1.35;letter-spacing:-.025em;color:#fff}
+.home-stage .leaf-card-label small{display:block;font-family:PlantInter,Arial,sans-serif;font-size:clamp(9px,.91vw,14px);font-weight:400;line-height:1.4;color:#fff;margin-top:1px}
+.home-stage .play-circle{display:grid;place-items:center;flex-shrink:0;width:clamp(26px,2.65vw,42px);height:clamp(26px,2.65vw,42px);border:1px solid #ffffff90;border-radius:50%;background:#f3f8df66;backdrop-filter:blur(8px);box-shadow:inset 0 0 0 1px #ffffff26}
+.home-stage .play-circle svg{width:39%;height:44%;fill:white;stroke:white;stroke-width:1;stroke-linejoin:round;margin-left:2px}
+.home-stage .home-scan{display:block;position:absolute!important;top:23%;right:10.5%;font-family:Caveat,cursive!important;font-weight:600;font-style:normal;font-size:clamp(23px,min(2.5vw,4.2cqh),39px);line-height:.95;color:#08482d;transform:rotate(-9deg);z-index:2}
+.home-stage .home-scan svg{position:absolute;top:90%;left:45%;width:clamp(75px,8vw,135px);height:auto;fill:none;stroke:#08482d;stroke-width:2.8;stroke-linecap:round;stroke-linejoin:round;overflow:visible}
+.home-stage .home-scribble{position:absolute;top:23%;left:19%;width:clamp(25px,3vw,47px);height:clamp(35px,4vw,63px);fill:none;stroke:#08482d;stroke-width:1.9;stroke-linecap:round;transform:rotate(-4deg)}
+.home-stage .home-cta-row{position:absolute!important;top:87%!important;left:0;width:100%;margin:0;display:flex;justify-content:center;align-items:center;z-index:4}
+.home-stage .detect-cta{position:relative;display:flex!important;align-items:center;justify-content:center;gap:clamp(10px,1vw,17px);min-width:0!important;height:clamp(45px,7.6cqh,70px);padding:0 clamp(22px,2vw,35px)!important;border:0;border-radius:999px;background:linear-gradient(125deg,#0b4f36,#07412c);font-size:clamp(14px,min(1.35vw,2.4cqh),21px);line-height:1;font-weight:600;white-space:nowrap;color:#fff!important;text-decoration:none!important;outline:1px dashed #6c9464;outline-offset:7px;box-shadow:inset 0 0 12px #0e583d70;transition:transform .25s ease,box-shadow .25s ease}
+.home-stage .detect-cta:hover{transform:translateY(-3px);box-shadow:0 7px 20px #0b4f3620}
+.home-stage .cta-scan-icon{width:clamp(21px,2vw,31px);height:clamp(21px,2vw,31px);flex-shrink:0}
+.home-stage .cta-arrow{width:clamp(17px,1.5vw,23px);height:clamp(17px,1.5vw,23px)}
+.home-stage .free-note{position:absolute!important;left:auto;right:calc(50% + clamp(117px,10.5vw,165px));top:3.3cqh;font-family:Caveat,cursive!important;font-style:normal;font-size:clamp(22px,min(2.3vw,4cqh),36px);font-weight:600;white-space:nowrap;transform:rotate(7deg);color:#08482d}
+.home-stage .free-note svg{display:block;position:absolute;top:-5.3cqh;right:-19px;width:clamp(45px,5vw,78px);height:auto;fill:none;stroke:#08482d;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
+@media(max-width:820px){.home-stage{height:calc(100svh - 125px)}.home-stage .home-copy{top:5%!important;padding:0 15px}.home-stage .home-copy h1{font-size:clamp(30px,min(6.7vw,7.8cqh),53px)!important;line-height:1.055!important;margin-bottom:3cqh!important}.home-stage .home-copy p{max-width:480px;font-size:clamp(12px,min(2vw,2.6cqh),16px)!important;padding:0 22px}.home-stage .desktop-break{display:none}.home-stage .home-carousel{top:39%!important;height:41%!important}.home-stage .home-scan,.home-stage .home-scribble{display:none!important}.home-stage .home-leaf-card{width:170px}.home-stage .leaf-card-label{left:12px;gap:10px}.home-stage .leaf-card-label strong{font-size:14px}.home-stage .leaf-card-label small{font-size:11px}.home-stage .play-circle{width:31px;height:31px}.home-stage .home-cta-row{top:87%!important}.home-stage .detect-cta{height:clamp(45px,8cqh,59px);font-size:15px;padding:0 23px!important}.home-stage .free-note{font-size:25px;right:calc(50% + 116px);top:3cqh}.home-stage .free-note svg{width:50px;top:-5cqh}}
+@media(max-width:480px){.home-stage .home-copy{top:5.5%!important}.home-stage .home-copy h1{font-size:clamp(29px,min(7.6vw,7.5cqh),37px)!important;letter-spacing:-.045em!important;line-height:1.06!important}.home-stage .home-copy p{font-size:clamp(11px,2.5cqh,14px)!important;line-height:1.55!important;padding:0 20px}.home-stage .home-carousel{top:37%!important;height:41%!important}.home-stage .home-cta-row{top:85%!important}.home-stage .free-note{right:calc(50% + 91px);top:-5.1cqh;font-size:24px;transform:rotate(-7deg)}.home-stage .free-note svg{display:block;width:39px;top:1cqh;right:-23px;transform:rotate(20deg)}.home-stage .detect-cta{font-size:15px;height:48px}}
+@media(max-height:520px) and (min-width:821px){.home-stage .home-copy{top:2%!important}.home-stage .home-copy h1{font-size:min(5vw,9cqh)!important;margin-bottom:2cqh!important}.home-stage .home-copy p{font-size:11px!important}.home-stage .home-carousel{top:39%!important;height:41%!important}.home-stage .home-cta-row{top:86%!important}.home-stage .detect-cta{height:38px;font-size:13px}.home-stage .home-scan,.home-stage .home-scribble{display:none!important}}
+@media(prefers-reduced-motion:reduce){.home-stage .home-leaf-card>img,.home-stage .detect-cta{transition:none!important}.home-stage .home-leaf-card:hover>img,.home-stage .detect-cta:hover{transform:none!important}}
+/* Compact viewports keep the same complete composition, without a minimum stage height. */
+@media(max-height:650px){
+ .home-stage .home-copy{top:3.5%!important}
+ .home-stage .home-copy h1{font-size:min(6vw,9.2cqh)!important;margin-bottom:2.2cqh!important;line-height:1.02!important}
+ .home-stage .home-copy p{font-size:min(14px,2.8cqh)!important;line-height:1.4!important}
+ .home-stage .home-carousel{top:37%!important;height:44%!important}
+ .home-stage .home-cta-row{top:87%!important}
+ .home-stage .detect-cta{height:min(48px,8cqh)!important;font-size:min(15px,2.8cqh)!important;padding:0 min(24px,4cqh)!important;gap:min(12px,2cqh);outline-offset:4px}
+ .home-stage .cta-scan-icon{width:min(24px,4.5cqh);height:min(24px,4.5cqh)}
+ .home-stage .cta-arrow{width:min(19px,3.5cqh);height:min(19px,3.5cqh)}
+ .home-stage .leaf-card-label{gap:min(10px,2cqh)}
+ .home-stage .leaf-card-label strong{font-size:min(14px,3.5cqh)}
+ .home-stage .leaf-card-label small{font-size:min(11px,2.8cqh)}
+ .home-stage .play-circle{width:min(31px,8cqh);height:min(31px,8cqh)}
+ .home-stage .free-note{font-size:min(25px,4.5cqh);top:2cqh}
+ .home-stage .home-scan,.home-stage .home-scribble{display:none!important}
+}

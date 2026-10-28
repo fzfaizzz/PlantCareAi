@@ -1,0 +1,188 @@
+{
+  "generator": "built-in image_gen",
+  "assetCount": 7,
+  "assets": [
+    {
+      "name": "reference-leaf-upper-left",
+      "transparent": true,
+      "references": [
+        "C:\\Users\\akhta\\Downloads\\ChatGPT Image Oct 21, 2026, 06_51_21 PM.png"
+      ],
+      "prompt": "Use case: photorealistic-natural. Create ONE standalone botanical decoration asset, not a webpage. Input image is only a visual reference for the upper-left broad leafy branch and its light natural color. Extract the design idea into a newly photographed plant branch: compact cluster of exactly 4 large broad glossy pointed ovate green leaves attached to a short coherent diagonal branch entering from the upper-left corner, leaf blades fan toward lower right and lower center. Most of the mass is in upper-left half. One dominant wide blade in front with gently undulating edges and clearly branching veins, 3 supporting leaves behind, faint natural imperfections. Approximately square composition. Soft luminous natural diffuse daylight, fresh forest green and warm lime-green veins. Genuinely transparent background, crisp natural leaf silhouettes with subtly soft foreground edges. No long vertical dangling stem, no chain of narrow leaves, no text, no drawings, no UI, no opaque backdrop, no pot, no border, no collage. Premium realistic garden editorial photograph.",
+      "mode": "built-in image_gen",
+      "sourcePath": "C:\\Users\\akhta\\.codex\\generated_images\\01a162e1-9511-7d10-990f-a3aadebe0564\\exec-9a54b1ac-33cd-4e80-bfeb-f2fd21af6238.png",
+      "originalPath": "C:\\Users\\akhta\\Downloads\\PlantCareAi\\asset-originals\\reference-leaf-upper-left.png",
+      "webpPath": "C:\\Users\\akhta\\Downloads\\PlantCareAi\\public\\assets\\plants\\reference-leaf-upper-left.webp",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "optimizedSize": [
+        1200,
+        1200
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "bytes": 226334,
+      "visualQA": "Pass: matches broad-leaf reference composition, no UI or text, transparent alpha checked"
+    },
+    {
+      "name": "reference-leaf-upper-right",
+      "transparent": true,
+      "references": [
+        "C:\\Users\\akhta\\Downloads\\ChatGPT Image Oct 21, 2026, 06_51_21 PM.png"
+      ],
+      "prompt": "Use case: photorealistic-natural. Create ONE standalone botanical decoration asset, not a webpage. Input screenshot is only a visual reference for the softly luminous broad leaves entering the top-right perimeter. Newly photographed short coherent branch entering upper-right corner and pointing diagonally down-left, compact fan of exactly 4 broad pointed ovate green leaves, dominant broad leaf facing viewer with visible veins, two supporting leaves across top-left and a side leaf below. Short branch, broad full leaf silhouettes, masses overlap naturally, approximately square canvas. Soft diffuse natural morning light, yellow-green backlit margins, fresh forest green. Genuinely transparent background. Premium garden editorial realism, natural leaf texture. No long vertical hanging twig, no string of narrow leaves, no text, no UI, no frame, no opaque rectangular background, no collage, no pot.",
+      "mode": "built-in image_gen",
+      "sourcePath": "C:\\Users\\akhta\\.codex\\generated_images\\01a162e1-9511-7d10-990f-a3aadebe0564\\exec-f019c821-3098-4460-8cd8-a2df93090772.png",
+      "originalPath": "C:\\Users\\akhta\\Downloads\\PlantCareAi\\asset-originals\\reference-leaf-upper-right.png",
+      "webpPath": "C:\\Users\\akhta\\Downloads\\PlantCareAi\\public\\assets\\plants\\reference-leaf-upper-right.webp",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "optimizedSize": [
+        1200,
+        1200
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "bytes": 253154,
+      "visualQA": "Pass: matches broad-leaf reference composition, no UI or text, transparent alpha checked"
+    },
+    {
+      "name": "reference-detect-hero",
+      "transparent": true,
+      "references": [
+        "C:\\Users\\akhta\\Downloads\\ChatGPT Image Oct 21, 2026, 06_51_21 PM.png"
+      ],
+      "prompt": "Use case: photorealistic-natural. Create ONE standalone close-up botanical cutout, not a webpage. The supplied screenshot is visual reference ONLY for its giant dew-covered broad leaf on the right. Match that leaf shape, detailed fresh dew, and scale in a new independent botanical photograph. Exactly three overlapping very large broad ovate-to-heart-shaped pointed glossy leaves on one short coherent diagonal branch entering from far-right edge. Dominant front leaf is huge, tilted down-left, upper-right base to lower-left pointed tip, occupying 65 percent of a portrait 2:3 composition; raised branching veins, dozens of crystal-clear round dew droplets; two softer broad leaves behind at top and right. Lush natural forest green, pale lime highlights, soft luminous natural morning daylight. Genuinely transparent background, complete organic edges apart from branch exit at right. NO full upright plant, NO long tomato stem, no soil or pot, no UI or lettering, no border, no collage, no opaque background. Editorial macro realism.",
+      "mode": "built-in image_gen",
+      "sourcePath": "C:\\Users\\akhta\\.codex\\generated_images\\01a162e1-9511-7d10-990f-a3aadebe0564\\exec-ccf9d3b7-79f7-40e9-8204-ac4609535a2e.png",
+      "originalPath": "C:\\Users\\akhta\\Downloads\\PlantCareAi\\asset-originals\\reference-detect-hero.png",
+      "webpPath": "C:\\Users\\akhta\\Downloads\\PlantCareAi\\public\\assets\\plants\\reference-detect-hero.webp",
+      "sourceSize": [
+        1024,
+        1536
+      ],
+      "optimizedSize": [
+        800,
+        1200
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "bytes": 320574,
+      "visualQA": "Pass: matches broad-leaf reference composition, no UI or text, transparent alpha checked"
+    },
+    {
+      "name": "reference-about-hero",
+      "transparent": true,
+      "references": [
+        "C:\\Users\\akhta\\Downloads\\ChatGPT Image Oct 21, 2026, 06_51_05 PM.png"
+      ],
+      "prompt": "Use case: photorealistic-natural. Create ONE isolated botanical hero photograph, not a webpage. The supplied screenshot is a visual reference ONLY for the central-right lush branch inside its circle. Recreate a new standalone plant branch with that same tall upright leaf arrangement, broad foliage, and natural photographic look. Exactly seven broad oval pointed green leaves connected coherently to one fresh stem: a huge upright central leaf reaching to near top center with very clear gold-green branching veins; two upper lateral leaves behind it angled up-left and up-right; two broad mid-lateral leaves extending left and right; two smaller low leaves near the stem base. Huge central leaf occupies about 40 percent of canopy and faces viewer. Main stem rises from bottom center. Rich healthy green glossy-but-natural textures with subtle fresh dew, gently curled edges and natural back sides visible on lateral leaves. Full branch canopy fits approximately square canvas, no crop of blade edges. Genuinely transparent background with soft natural studio daylight and subtle green light transmission. No circular frame, no text, no UI, no pot, no border, no collage, no opaque backdrop. Premium garden editorial realism.",
+      "mode": "built-in image_gen",
+      "sourcePath": "C:\\Users\\akhta\\.codex\\generated_images\\01a162e1-9511-7d10-990f-a3aadebe0564\\exec-ed81d333-67db-4fa6-9591-c7626fbd4563.png",
+      "originalPath": "C:\\Users\\akhta\\Downloads\\PlantCareAi\\asset-originals\\reference-about-hero.png",
+      "webpPath": "C:\\Users\\akhta\\Downloads\\PlantCareAi\\public\\assets\\plants\\reference-about-hero.webp",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "optimizedSize": [
+        1200,
+        1200
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "bytes": 382808,
+      "visualQA": "Pass: matches broad-leaf reference composition, no UI or text, transparent alpha checked"
+    },
+    {
+      "name": "reference-avatars",
+      "transparent": true,
+      "prompt": "Use case: photorealistic-natural. Asset type: one website community avatar strip. Create ONE horizontal row of exactly four equally sized circular realistic portrait headshots of four different anonymous friendly adult gardeners. Two men and two women in their late twenties to forties with varied natural appearances, shoulders-up friendly relaxed faces, one South Asian man, one light-skinned man, one South Asian woman, one East Asian woman. Plain understated garden casual shirts, natural grooming, no hats. Premium stock editorial photography, soft outdoor diffuse light, muted neutral sage backgrounds inside each circular crop. Each head and shoulders fully contained inside its own neat circle. Four circles side by side with small even genuinely transparent gaps and transparent outside corners, equal diameter, single horizontal line, no overlap. Horizontal wide 4:1 composition with minimal outer margins, actual transparent alpha outside circles. No typography, no UI, no logos, no frame beyond circular photo crops, no extra people, no square portrait boxes.",
+      "mode": "built-in image_gen",
+      "sourcePath": "C:\\Users\\akhta\\.codex\\generated_images\\01a162e1-9511-7d10-990f-a3aadebe0564\\exec-9b3bff9b-1033-4bce-afef-952f81280af7.png",
+      "originalPath": "C:\\Users\\akhta\\Downloads\\PlantCareAi\\asset-originals\\reference-avatars.png",
+      "webpPath": "C:\\Users\\akhta\\Downloads\\PlantCareAi\\public\\assets\\plants\\reference-avatars.webp",
+      "sourceSize": [
+        2172,
+        724
+      ],
+      "optimizedSize": [
+        1200,
+        400
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "bytes": 108370,
+      "visualQA": "Pass: matches broad-leaf reference composition, no UI or text, transparent alpha checked"
+    },
+    {
+      "name": "reference-about-hero-wide",
+      "prompt": "Use case: background-extraction. Asset type: one standalone transparent botanical hero cutout. Edit this reference crop by keeping the specific foreground botanical branch and its exact asymmetrical geometry while removing EVERYTHING else. Preserve the huge upright central leaf leaning slightly left, its yellow-green serrated rim, dark glossy deep-green texture, curved branching veins and subtle dew. Preserve the long narrow leaf rising behind it on the upper right, the distant pointed far-left lateral leaf reaching almost horizontally up-left, the upper-right lateral leaf pointing diagonally out-right, the long large lower-right leaf reaching far right, the little low leaves, and the short naturally angled visible brown-green stem. The plant canopy must spread broadly in a landscape composition with visible plant silhouette approximately 1.5 wide to 1 high. Keep the leaf positions and relative scale from the reference. Retain central leaf's natural imperfections and realistic organic shine. Remove all text, all arrows, all connector dots and lines, all pale circular shapes, all background blurred leaves, all translucent overlays and all UI; behind the kept main branch make actual transparent alpha. Preserve full individual leaf edges, complete any tiny edge obscured by the removed UI, and leave only a small transparent margin around the whole branch. Soft studio daylight consistent with the original reference. Do not symmetrize, do not make a formal seven-leaf fan, do not add a long straight center stem, do not turn into a full plant in a pot, do not add new objects. Final result one isolated photorealistic broad botanical branch on genuine transparency, no circle, no words, no opaque backdrop, no collage.",
+      "transparent": true,
+      "mode": "built-in image_gen",
+      "references": [
+        "C:\\Users\\akhta\\Downloads\\PlantCareAi\\asset-originals\\about-geometry-reference.png"
+      ],
+      "sourcePath": "C:\\Users\\akhta\\.codex\\generated_images\\01a162e1-9511-7d10-990f-a3aadebe0564\\exec-92f1670e-e04c-4684-b82a-a96c1e7b75f2.png",
+      "originalPath": "C:\\Users\\akhta\\Downloads\\PlantCareAi\\asset-originals\\reference-about-hero-wide.png",
+      "webpPath": "C:\\Users\\akhta\\Downloads\\PlantCareAi\\public\\assets\\plants\\reference-about-hero-wide.webp",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "optimizedSize": [
+        1200,
+        800
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleBoundingBox": [
+        14,
+        13,
+        1189,
+        787
+      ],
+      "visibleAspectRatio": 1.518,
+      "bytes": 252056,
+      "visualQA": "Pass: specific asymmetric reference geometry retained with broad lateral spread, short angled stem, no UI/text/circle; alpha verified"
+    },
+    {
+      "name": "reference-dataset-leaf",
+      "prompt": "Use case: precise-object-edit. Asset type: one individual botanical macro editorial photograph for the lower About section of a plant-care website. The input crop is a composition reference. Recreate this specific photographic composition as a fresh standalone photograph: a diagonal natural green-brown branch crosses from left toward upper-middle; one large glossy broad pointed ovate leaf stretches diagonally from upper middle toward far lower right, with bold raised veins and fresh transparent dew droplets; soft overlapping foliage at far left and bottom, very shallow depth of field with creamy pale green natural light behind the leaf on the right. Rich forest-green shadows at left and lower-left, naturally lit yellow-green rim, detailed dew beads hanging at pointed tip. Preserve the reference's intimate macro framing and angle. Opaque photo fills the whole rectangular canvas, wide 2.3:1 landscape composition, with a little more softly blurred lower foliage if necessary for that aspect. Remove all existing overlaid white words, all arrows and scribbles, all corner rounding, and all interface features. No text, no watermark, no borders, no frame, no UI, no collage, no tomatoes, no distant wide garden scene. Natural premium editorial photography, real organic surface textures and water, restrained morning light.",
+      "transparent": false,
+      "mode": "built-in image_gen",
+      "references": [
+        "C:\\Users\\akhta\\Downloads\\PlantCareAi\\asset-originals\\dataset-geometry-reference.png"
+      ],
+      "sourcePath": "C:\\Users\\akhta\\.codex\\generated_images\\01a162e1-9511-7d10-990f-a3aadebe0564\\exec-2aa7e633-4415-4104-abf4-8dd9cfe4db3a.png",
+      "originalPath": "C:\\Users\\akhta\\Downloads\\PlantCareAi\\asset-originals\\reference-dataset-leaf.png",
+      "webpPath": "C:\\Users\\akhta\\Downloads\\PlantCareAi\\public\\assets\\plants\\reference-dataset-leaf.webp",
+      "sourceSize": [
+        1902,
+        827
+      ],
+      "optimizedSize": [
+        1200,
+        522
+      ],
+      "bytes": 59542,
+      "visualQA": "Pass: opaque macro composition matches original lower About photo; no text, arrows, borders, collage or UI"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "http_status": 200,
+  "result": {
+    "schema_version": "2.0",
+    "request_id": "e59f4812-7aba-4abe-ad5b-c6357677d143",
+    "status": "unsupported_image",
+    "plant": null,
+    "plant_scientific_name": null,
+    "condition": null,
+    "confidence": null,
+    "general_guidance": [],
+    "general_guidance_source": null,
+    "provider": {
+      "name": "gemini",
+      "model": "gemini-3.1-flash-lite"
+    },
+    "observations": [],
+    "symptoms": [],
+    "care": [],
+    "prevention": [],
+    "uncertainty": "The image does not show a usable leaf subject.",
+    "explanation": "Choose a clear photograph of a leaf for plant-health interpretation.",
+    "warnings": [
+      "Plant identity and condition are Gemini image-based hypotheses, not a confirmed diagnosis.",
+      "PlantVillage identifiers are educational catalog mappings; no TensorFlow classifier or dataset lookup runs here.",
+      "The photo has very little visual detail; an in-focus close-up may work better.",
+      "Image assessment limitation: The image is a solid color block with no visible subject matter.",
+      "Image assessment limitation: No plant material is present to analyze."
+    ],
+    "sources": [],
+    "catalog": {
+      "matched": false,
+      "slug": null,
+      "plant_village_class": null,
+      "attribution": "General plant-care guidance; no exact reviewed condition match."
+    },
+    "assessment": {
+      "contains_leaf": "no",
+      "image_quality": "uncertain",
+      "limitations": [
+        "The image is a solid color block with no visible subject matter.",
+        "No plant material is present to analyze."
+      ]
+    },
+    "timings_ms": {
+      "upload": 17,
+      "decode": 937,
+      "provider": 8613,
+      "total": 9570
+    }
+  }
+}

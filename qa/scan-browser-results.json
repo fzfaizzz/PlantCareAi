@@ -1,0 +1,19 @@
+{
+  "fixtureNotice": "Explicit Playwright test fixtures only. No real analysis backend exists or is claimed.",
+  "checks": [
+    "A real WebP file can be selected through file drag/drop and decoded as an aspect-preserving blob preview.",
+    "Dropping multiple files displays the one-image validation error.",
+    "Unsupported and unreadable dragged files produce accessible errors without starting a scan.",
+    "The actual pending multipart fetch mounts one scan beam, four corners and a visible selected photo (1440px screenshot saved).",
+    "A controlled successful HTTP response stops the scan and displays only fixture fields returned by that response.",
+    "An HTTP failure stops the scan, removes prior results and exposes a useful error.",
+    "Cancel analysis immediately stops the pending scan and allows retry without fabricating a result.",
+    "Removing an image during a request stops the scan and restores the empty chooser.",
+    "Navigating away while a request is pending unmounts the scan and cleans up the upload component.",
+    "The unchanged default app on 5173 remains explicitly marked UI demo: uploads preview locally, Analyze is disabled, no scan or API request occurs."
+  ],
+  "errors": [],
+  "screenshot": "qa/scan-pending.png",
+  "passed": true,
+  "testServerStopped": true
+}

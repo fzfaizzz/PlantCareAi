@@ -1,0 +1,170 @@
+/* Detection section only. Home and the shared navbar keep their approved layout. */
+.st-key-detect-page {
+ --detect-stage-h:100svh;
+ --du:min(calc(100vw / 1314),calc(var(--detect-stage-h) / 740));
+ position:relative!important;isolation:isolate;box-sizing:border-box;
+ width:100vw!important;max-width:none!important;
+ height:var(--detect-stage-h)!important;min-height:var(--detect-stage-h)!important;
+ flex:0 0 auto!important;display:block!important;
+ margin:0 -32px!important;padding:0!important;overflow:clip!important;
+ scroll-margin-top:0;
+}
+/* Let positioned regions use the section as their containing block. */
+.st-key-detect-page :is([data-testid=stLayoutWrapper],[data-testid=stVerticalBlockBorderWrapper],[data-testid=stElementContainer]):has(.st-key-detect-heading-block),
+.st-key-detect-page :is([data-testid=stLayoutWrapper],[data-testid=stVerticalBlockBorderWrapper],[data-testid=stElementContainer]):has(.st-key-detect-composition),
+.st-key-detect-page :is([data-testid=stLayoutWrapper],[data-testid=stVerticalBlockBorderWrapper],[data-testid=stElementContainer]):has(.st-key-detect-feature-block) {position:static!important}
+.st-key-detect-heading-block {
+ position:absolute!important;top:6%!important;left:0;right:0;
+ width:100%!important;height:auto!important;margin:0!important;padding:0 20px!important;
+ z-index:3;gap:0!important;
+}
+.st-key-detect-page .detect-heading {position:relative;text-align:center;margin:0!important;padding:0!important}
+.st-key-detect-page .detect-heading h1 {
+ font-family:PlantTight,PlantInter,Arial,sans-serif!important;
+ font-size:calc(58 * var(--du))!important;font-weight:750;line-height:1.04!important;
+ letter-spacing:-.035em!important;color:#070b08;
+ margin:0 0 calc(18 * var(--du))!important;padding:0!important;
+}
+.st-key-detect-page .detect-heading p {font-size:calc(19 * var(--du));line-height:1.55;color:#72747a;margin:0!important;padding:0}
+.st-key-detect-composition {
+ position:absolute!important;top:34%!important;left:0;right:0;
+ width:100%!important;height:47%!important;min-height:0!important;
+ margin:0!important;padding:0!important;gap:0!important;
+ display:flex!important;flex-direction:column;justify-content:center;z-index:2;
+}
+.st-key-detect-composition [data-testid=stHorizontalBlock] {gap:0!important;align-items:center}
+.st-key-detect-composition [data-testid=stColumn] {min-width:0!important;padding:0}
+.st-key-detect-composition [data-testid=stColumn]:nth-child(2) {z-index:3}
+.st-key-leaf-upload {
+ position:relative!important;box-sizing:border-box;
+ height:calc(300 * var(--du))!important;min-height:calc(300 * var(--du))!important;
+ flex:0 0 auto!important;width:100%!important;max-width:560px;
+ margin:0 auto!important;padding:0!important;
+ background:linear-gradient(125deg,#fcfef8ee,#eff6e8ee);
+ border:1.5px dashed #bdd1ac!important;border-radius:calc(20 * var(--du))!important;
+ box-shadow:inset 0 0 0 3px #ffffff66;overflow:visible!important;
+}
+.st-key-leaf-upload :is([data-testid=stVerticalBlock],[data-testid=stLayoutWrapper],[data-testid=stElementContainer]) {position:static!important;gap:0!important}
+.st-key-detect-page .upload-cloud {position:absolute;top:calc(38 * var(--du));left:0;width:100%;height:calc(55 * var(--du));margin:0;text-align:center;pointer-events:none}
+.st-key-detect-page .upload-cloud img {display:inline-block;width:calc(55 * var(--du));height:100%}
+.st-key-detect-page .upload-title {position:absolute;left:0;right:0;top:calc(117 * var(--du));text-align:center;font:450 calc(21 * var(--du))/1.3 PlantInter,Arial,sans-serif!important;letter-spacing:-.025em!important;margin:0!important;padding:0!important;pointer-events:none}
+.st-key-detect-page .upload-subtitle {position:absolute;left:0;right:0;top:calc(155 * var(--du));font-size:calc(16 * var(--du));line-height:1.3;color:#7c8183;text-align:center;margin:0!important;pointer-events:none}
+.st-key-detect-page .upload-support {position:absolute;left:0;right:0;bottom:calc(20 * var(--du));font-size:calc(12 * var(--du));line-height:1.4;color:#8b9288;text-align:center;margin:0;pointer-events:none}
+.st-key-leaf-upload [data-testid=stFileUploader]{position:absolute!important;inset:0!important;height:100%!important;width:100%!important;z-index:4}
+.st-key-leaf-upload [data-testid=stFileUploaderDropzone]{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;min-height:0!important;background:transparent!important;border:0!important;margin:0!important;padding:0!important;border-radius:20px!important;opacity:0!important;cursor:pointer}
+.st-key-leaf-upload [data-testid=stFileUploaderDropzone] button{opacity:0!important;box-shadow:none!important}
+.st-key-leaf-upload [data-testid=stFileUploaderDropzone] button:before,.st-key-leaf-upload [data-testid=stFileUploaderDropzone] button:after{content:none!important;display:none!important}
+.st-key-leaf-upload [data-testid=stFileUploaderFile],.st-key-leaf-upload [data-testid=stFileUploaderFileName],.st-key-leaf-upload [data-testid=stFileUploaderFileData],.st-key-leaf-upload [data-testid=stFileUploaderDeleteBtn]{display:none!important}
+.st-key-detect-page .choose-leaf-control{position:absolute;left:50%;bottom:calc(52 * var(--du));transform:translateX(-50%);display:flex;align-items:center;justify-content:center;gap:10px;width:min(78%,300px);height:calc(48 * var(--du));min-height:38px;padding:0 15px;border-radius:calc(12 * var(--du));background:linear-gradient(110deg,#095a40,#03412e);color:white;font:600 clamp(12px,calc(16 * var(--du)),16px)/1 PlantInter,Arial,sans-serif;white-space:nowrap;box-sizing:border-box;pointer-events:none;box-shadow:0 5px 14px #095a4020;z-index:2}
+.st-key-detect-page .choose-leaf-control img{display:block;flex:none;width:20px;height:20px}
+.st-key-leaf-upload:focus-within{outline:2px solid #6b9855;outline-offset:3px}
+.st-key-leaf-upload:hover .choose-leaf-control{background:#095a40}
+.st-key-detect-page .upload-privacy {font-size:calc(12 * var(--du));color:#83917b;display:flex;align-items:center;justify-content:center;gap:7px;text-align:center;margin:calc(14 * var(--du)) 0 0;line-height:1.4}
+.st-key-detect-page .upload-privacy img {width:calc(15 * var(--du));height:calc(15 * var(--du));flex:none}
+.st-key-detect-samples {position:relative!important;box-sizing:border-box;width:calc(265 * var(--du))!important;height:calc(300 * var(--du))!important;min-height:calc(300 * var(--du))!important;max-width:90%;margin:0 calc(30 * var(--du)) 0 auto!important;padding:0!important;overflow:visible!important}
+.st-key-detect-samples :is([data-testid=stVerticalBlock],[data-testid=stLayoutWrapper],[data-testid=stElementContainer]) {position:static!important;gap:0!important}
+.st-key-detect-samples .upload-note {position:absolute;left:calc(99 * var(--du));top:calc(-56 * var(--du));font:600 calc(33 * var(--du))/.9 Caveat,cursive;text-align:left;color:#09583d;transform:rotate(-8deg);margin:0!important;z-index:5}
+.st-key-detect-page .upload-note-arrow {position:absolute;left:calc(188 * var(--du));top:calc(-48 * var(--du));width:calc(85 * var(--du));height:calc(75 * var(--du))}
+.st-key-detect-page .sample-small-arrow {position:absolute;right:calc(7 * var(--du));top:calc(148 * var(--du));width:calc(55 * var(--du));height:calc(55 * var(--du));transform:rotate(-25deg)}
+.st-key-detect-samples [class*=st-key-detect-sample-] {position:absolute!important;width:calc(108 * var(--du))!important;height:calc(145 * var(--du))!important;min-height:calc(145 * var(--du))!important;margin:0!important;padding:0!important;filter:drop-shadow(0 6px 8px #153f1820);transform-origin:center;transition:transform .35s cubic-bezier(.2,.7,.2,1),filter .35s;cursor:pointer}
+.st-key-detect-samples .st-key-detect-sample-0 {left:calc(8 * var(--du));top:calc(34 * var(--du));transform:rotate(-10deg)}
+.st-key-detect-samples .st-key-detect-sample-1 {left:calc(134 * var(--du));top:calc(10 * var(--du));transform:rotate(10deg)}
+.st-key-detect-samples .st-key-detect-sample-2 {left:calc(88 * var(--du));top:calc(145 * var(--du));transform:rotate(-10deg);z-index:3}
+.st-key-detect-samples [class*=st-key-detect-sample-]:hover {transform:translateY(-8px) rotate(0deg) scale(1.055);filter:drop-shadow(0 13px 11px #153f1830);z-index:6}
+.st-key-detect-page .sample-photo {height:calc(145 * var(--du));box-sizing:border-box;padding:calc(5 * var(--du));background:#fff;border-radius:calc(7 * var(--du));overflow:hidden}
+.st-key-detect-page .sample-photo img {width:100%;height:100%;object-fit:cover;border-radius:3px;aspect-ratio:auto}
+.st-key-detect-samples [class*=st-key-detect-sample-] [data-testid=stButton] {position:absolute!important;inset:0!important;width:100%;height:100%;z-index:2}
+.st-key-detect-samples [class*=st-key-detect-sample-] button {width:100%!important;height:100%!important;min-height:0!important;opacity:0;transform:none!important;padding:0!important}
+.st-key-detect-samples [class*=st-key-detect-sample-]:focus-within {outline:2px solid #2d7444;outline-offset:4px;border-radius:7px}
+.st-key-detect-page .detect-botanical {position:relative;width:100%;height:calc(350 * var(--du));margin:0!important;min-height:0!important;display:block;pointer-events:none}
+.st-key-detect-page .detect-botanical>img:first-child {position:absolute;right:calc(-80 * var(--du));top:calc(-100 * var(--du));height:calc(555 * var(--du));width:calc(510 * var(--du));max-width:none;object-fit:contain;transform:none}
+.st-key-detect-page .detect-leaf-doodle {position:absolute;left:calc(55 * var(--du));top:calc(3 * var(--du));width:calc(50 * var(--du));height:calc(70 * var(--du))}
+.st-key-detect-page .healthy-note {position:absolute;left:calc(-65 * var(--du));top:auto;bottom:calc(14 * var(--du));font:600 calc(29 * var(--du))/.92 Caveat,cursive;transform:rotate(-10deg);color:#09593d;z-index:3}
+.st-key-detect-page .healthy-note img {width:calc(45 * var(--du));height:calc(35 * var(--du));margin-top:6px;display:block;margin-left:30px}
+.st-key-detect-feature-block {position:absolute!important;left:10%;right:10%;bottom:3%!important;width:80%!important;height:auto!important;margin:0!important;padding:0!important;z-index:4;gap:0!important}
+.st-key-detect-page .detect-feature-band {position:relative!important;left:auto;bottom:auto;width:100%!important;max-width:none;margin:0!important;display:flex;gap:calc(25 * var(--du));align-items:center;justify-content:space-between;border-radius:16px;background:#ffffffb0;padding:calc(16 * var(--du)) calc(22 * var(--du))}
+.st-key-detect-page .detect-feature-band>div {display:flex;align-items:center;gap:calc(15 * var(--du));flex:1;min-width:0}
+.st-key-detect-page .detect-feature-icon {width:calc(54 * var(--du));height:calc(54 * var(--du));border-radius:50%;display:grid;place-items:center;background:#e7f1dc;flex:none}
+.st-key-detect-page .detect-feature-icon img {width:55%;height:55%;display:block}
+.st-key-detect-page .detect-feature-band strong {display:block;font-size:calc(15 * var(--du));font-weight:600;line-height:1.4;color:#29362c;white-space:nowrap}
+.st-key-detect-page .detect-feature-band small {display:block;font-size:calc(12 * var(--du));line-height:1.4;color:#8a9286;margin-top:3px;white-space:nowrap}
+/* A selected photo can grow naturally; errors and the result remain reachable. */
+.st-key-detect-page:has(.detect-has-input),.st-key-detect-page:has([data-testid=stAlert]) {height:auto!important;min-height:var(--detect-stage-h)!important;overflow-x:clip!important;overflow-y:visible!important;padding:calc(35 * var(--du)) 0!important}
+.st-key-detect-page:has(.detect-has-input) .st-key-detect-heading-block,.st-key-detect-page:has([data-testid=stAlert]) .st-key-detect-heading-block {position:relative!important;top:auto!important;left:auto;right:auto}
+.st-key-detect-page:has(.detect-has-input) .st-key-detect-composition,.st-key-detect-page:has([data-testid=stAlert]) .st-key-detect-composition {position:relative!important;top:auto!important;left:auto;right:auto;height:auto!important;margin:40px 0!important;display:block!important}
+.st-key-detect-page:has(.detect-has-input) .st-key-detect-composition [data-testid=stHorizontalBlock] {align-items:flex-start}
+.st-key-detect-page:has(.detect-has-input) .st-key-detect-composition [data-testid=stImage] img {max-height:300px;object-fit:contain;border-radius:18px}
+.st-key-detect-page:has(.detect-has-input) .st-key-detect-feature-block,.st-key-detect-page:has([data-testid=stAlert]) .st-key-detect-feature-block {position:relative!important;left:auto;right:auto;bottom:auto!important;margin:20px auto!important}
+@media(max-width:820px) {
+ .st-key-detect-page {margin-left:-14px!important;margin-right:-14px!important}
+ .st-key-detect-feature-block {left:4%;right:4%;width:92%!important}
+}
+@media(max-width:700px) {
+ .st-key-detect-page {--du:min(calc(100vw / 657),calc(var(--detect-stage-h) / 700))}
+ .st-key-detect-heading-block {top:4%!important;padding:0 12px!important}
+ .st-key-detect-page .detect-heading h1 {font-size:clamp(25px,6.9vw,39px)!important;line-height:1.06!important;margin-bottom:12px!important}
+ .st-key-detect-page .detect-heading p {font-size:clamp(11px,2.8vw,14px);line-height:1.45}
+ .st-key-detect-composition {left:16px;right:16px;top:28%!important;width:auto!important;height:58%!important}
+ .st-key-detect-composition>[data-testid=stHorizontalBlock],.st-key-detect-composition>[data-testid=stVerticalBlock]>[data-testid=stHorizontalBlock] {flex-direction:column!important;gap:7px!important}
+ .st-key-detect-composition>[data-testid=stHorizontalBlock]>[data-testid=stColumn],.st-key-detect-composition>[data-testid=stVerticalBlock]>[data-testid=stHorizontalBlock]>[data-testid=stColumn] {width:100%!important;flex:0 0 auto!important;display:block!important}
+ .st-key-detect-composition>[data-testid=stHorizontalBlock]>[data-testid=stColumn]:last-child,.st-key-detect-composition>[data-testid=stVerticalBlock]>[data-testid=stHorizontalBlock]>[data-testid=stColumn]:last-child {display:none!important}
+ .st-key-detect-samples {width:160px!important;max-width:none;height:71px!important;min-height:71px!important;margin:4px auto 0!important;left:12px}
+ .st-key-detect-samples .upload-note {font-size:22px;left:-73px;top:10px}
+ .st-key-detect-page .upload-note-arrow {width:37px;height:35px;left:-30px;top:5px}
+ .st-key-detect-page .sample-small-arrow {display:none}
+ .st-key-detect-samples [class*=st-key-detect-sample-] {width:44px!important;height:61px!important;min-height:61px!important}
+ .st-key-detect-samples .st-key-detect-sample-0 {left:0;top:4px}
+ .st-key-detect-samples .st-key-detect-sample-1 {left:53px;top:0}
+ .st-key-detect-samples .st-key-detect-sample-2 {left:105px;top:7px}
+ .st-key-detect-page .sample-photo {height:61px;padding:3px;border-radius:4px}
+ .st-key-leaf-upload {height:clamp(195px,calc(var(--detect-stage-h) * .36),260px)!important;min-height:clamp(195px,calc(var(--detect-stage-h) * .36),260px)!important;width:min(100%,440px)!important;border-radius:18px!important}
+ .st-key-detect-page .upload-cloud {top:24px;height:40px}
+ .st-key-detect-page .upload-cloud img {width:40px}
+ .st-key-detect-page .upload-title {top:83px;font-size:17px!important}
+ .st-key-detect-page .upload-subtitle {top:111px;font-size:12px}
+ .st-key-detect-page .upload-support {bottom:13px;font-size:9px}
+ .st-key-leaf-upload [data-testid=stFileUploaderDropzone] {padding-bottom:37px!important}
+ .st-key-detect-page .upload-privacy {font-size:9px;margin-top:9px}
+ .st-key-detect-page .upload-privacy img {width:12px;height:12px}
+ .st-key-detect-feature-block {left:16px;right:16px;bottom:12px!important;width:calc(100% - 32px)!important}
+ .st-key-detect-page .detect-feature-band {gap:7px;padding:10px 4px;border-radius:13px}
+ .st-key-detect-page .detect-feature-band>div {flex-direction:column;text-align:center;gap:5px}
+ .st-key-detect-page .detect-feature-icon {width:30px;height:30px}
+ .st-key-detect-page .detect-feature-band strong {font-size:9px;white-space:normal}
+ .st-key-detect-page .detect-feature-band small {font-size:8px;white-space:normal;margin-top:2px}
+ .st-key-detect-page:has(.detect-has-input) .st-key-detect-composition {width:calc(100% - 32px)!important;margin:20px 16px!important}
+}
+@media(max-width:700px) and (max-height:700px) {
+ .st-key-detect-page .detect-heading h1 {font-size:27px!important;margin-bottom:7px!important}
+ .st-key-detect-page .detect-heading p {font-size:10px}
+ .st-key-detect-composition {top:26%!important;height:60%!important}
+ .st-key-detect-samples {height:51px!important;min-height:51px!important}
+ .st-key-detect-samples [class*=st-key-detect-sample-] {height:44px!important;min-height:44px!important}
+ .st-key-detect-page .sample-photo {height:44px;padding:2px}
+ .st-key-leaf-upload {height:190px!important;min-height:190px!important}
+ .st-key-detect-page .upload-cloud {top:19px;height:34px}
+ .st-key-detect-page .upload-title {top:67px;font-size:15px!important}
+ .st-key-detect-page .upload-subtitle {top:93px;font-size:11px}
+ .st-key-detect-page .detect-feature-band {padding:7px 2px}
+ .st-key-detect-page .detect-feature-icon {width:25px;height:25px}
+ .st-key-detect-page .detect-feature-band small {font-size:7px}
+}
+@media(prefers-reduced-motion:reduce) {
+ .st-key-detect-samples [class*=st-key-detect-sample-] {transition:none}
+ .st-key-detect-samples [class*=st-key-detect-sample-]:hover {transform:none}
+}
+
+/* Match the upload row through Streamlit's optional layout wrappers on phones. */
+@media(max-width:700px) {
+ .st-key-detect-composition [data-testid=stHorizontalBlock]:has(.st-key-leaf-upload) {flex-direction:column!important;gap:7px!important}
+ .st-key-detect-composition [data-testid=stHorizontalBlock]:has(.st-key-leaf-upload)>[data-testid=stColumn] {width:100%!important;flex:0 0 auto!important;display:block!important}
+ .st-key-detect-composition [data-testid=stHorizontalBlock]:has(.st-key-leaf-upload)>[data-testid=stColumn]:last-child {display:none!important}
+}
+
+@media(max-width:700px){.st-key-detect-page .choose-leaf-control{bottom:37px;height:40px;min-height:40px;width:min(78%,270px);border-radius:10px;font-size:13px}.st-key-detect-page .choose-leaf-control img{width:18px;height:18px}}
+
+/* The visible action follows the real file widget's loading state. */
+.st-key-leaf-upload:not(:has(input[type=file])) .choose-leaf-control{background:#789485;box-shadow:none}
+.st-key-leaf-upload:not(:has(input[type=file])) .choose-leaf-control>img{display:none}
+.st-key-leaf-upload:not(:has(input[type=file])) .choose-leaf-control>span{font-size:0}
+.st-key-leaf-upload:not(:has(input[type=file])) .choose-leaf-control>span:after{content:'Preparing upload…';font-size:13px}

@@ -1,0 +1,9 @@
+backend/
+qa/
+asset-originals/
+tests/
+.env
+.env.local
+.env.*
+*.log
+MASTER-BACKEND-PROMPT.md

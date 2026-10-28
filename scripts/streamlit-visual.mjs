@@ -1,0 +1,11 @@
+import { chromium } from '@playwright/test';
+const browser = await chromium.launch({ channel:'chrome', headless:true, args:['--disable-gpu','--disable-dev-shm-usage'] });
+const page = await browser.newPage({ viewport:{width:1440,height:900} });
+const errors=[];
+page.on('pageerror',e=>errors.push(e.message));
+await page.goto('http://127.0.0.1:8501',{waitUntil:'domcontentloaded'});
+await page.getByRole('button',{name:'Home',exact:true}).waitFor({timeout:60000});
+await page.waitForTimeout(2000);
+await page.screenshot({path:'qa/streamlit-home-1440.png'});
+console.log(JSON.stringify({title:await page.title(),headings:await page.getByRole('heading').allTextContents(),body:(await page.locator('body').innerText()).slice(0,1200),errors,overflow:await page.evaluate(()=>({width:innerWidth,scrollWidth:document.documentElement.scrollWidth})), script:await page.locator('.home-strip').getAttribute('class')}));
+await browser.close();

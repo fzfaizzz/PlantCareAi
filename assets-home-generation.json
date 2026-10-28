@@ -1,0 +1,65 @@
+[
+  {
+    "name": "tomato-healthy",
+    "file": "public/assets/plants/tomato-healthy.webp",
+    "original": "asset-originals/tomato-healthy.png",
+    "generator": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Generate ONE standalone vertical botanical photograph for a premium plant-health website card, 2:3 portrait composition. Subject: a healthy tomato plant leaf with sharp serrated edges, fresh green veins, natural morning light, tiny dew drops, real tomato plant context and one softly blurred red tomato in the garden background. The single leaf dominates the photograph. Premium macro garden photography, realistic anatomy, soft bokeh, forest green and fresh sage palette. No typography, logos, UI, watermark, collage or multiple panels. This is one individual asset: tomato-healthy.",
+    "illustrative": true,
+    "visuallyInspected": true
+  },
+  {
+    "name": "tomato-early-blight",
+    "file": "public/assets/plants/tomato-early-blight.webp",
+    "original": "asset-originals/tomato-early-blight.png",
+    "generator": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. One standalone premium botanical photograph for a plant-health website card. Tall portrait 2:3 composition, the entire image devoted to ONE subject and garden context. A tomato leaf, jagged serrated edges, yellowing green surface with distinct irregular dark brown blight-like patches and subtle concentric rings; blurred red tomatoes in background. Soft natural morning light, real plant anatomy, crisp leaf texture, fresh greens, cinematic shallow depth of field. Illustrative educational plant photo. No typography, watermark, UI, frame, collage or panels. Asset tomato-early-blight.",
+    "illustrative": true,
+    "visuallyInspected": true
+  },
+  {
+    "name": "potato-late-blight",
+    "file": "public/assets/plants/potato-late-blight.webp",
+    "original": "asset-originals/potato-late-blight.png",
+    "generator": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. One standalone premium botanical photograph for a plant-health website card. Tall portrait 2:3 composition, the entire image devoted to ONE subject and garden context. A potato leaf with broad oval form and irregular spreading dark water-soaked brown patches along edges, yellowing around lesions; soft blurred potato garden background. Soft natural morning light, real plant anatomy, crisp leaf texture, fresh greens, cinematic shallow depth of field. Illustrative educational plant photo. No typography, watermark, UI, frame, collage or panels. Asset potato-late-blight.",
+    "illustrative": true,
+    "visuallyInspected": true
+  },
+  {
+    "name": "apple-scab",
+    "file": "public/assets/plants/apple-scab.webp",
+    "original": "asset-originals/apple-scab.png",
+    "generator": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. One standalone premium botanical photograph for a plant-health website card. Tall portrait 2:3 composition, the entire image devoted to ONE subject and garden context. One oval apple leaf with serrated edge, olive-green and rusty brown small scab-like spots, blurred red apples in orchard behind. Soft natural morning light, real plant anatomy, crisp leaf texture, fresh greens, cinematic shallow depth of field. Illustrative educational plant photo. No typography, watermark, UI, frame, collage or panels. Asset apple-scab.",
+    "illustrative": true,
+    "visuallyInspected": true
+  },
+  {
+    "name": "corn-common-rust",
+    "file": "public/assets/plants/corn-common-rust.webp",
+    "original": "asset-originals/corn-common-rust.png",
+    "generator": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. One standalone premium botanical photograph for a plant-health website card. Tall portrait 2:3 composition, the entire image devoted to ONE subject and garden context. One long slender corn blade filling the frame diagonally, green parallel veins with numerous small orange-brown elongated rust pustules; blurred sunlit corn field behind. Soft natural morning light, real plant anatomy, crisp leaf texture, fresh greens, cinematic shallow depth of field. Illustrative educational plant photo. No typography, watermark, UI, frame, collage or panels. Asset corn-common-rust.",
+    "illustrative": true,
+    "visuallyInspected": true
+  },
+  {
+    "name": "grape-powdery-mildew",
+    "file": "public/assets/plants/grape-powdery-mildew.webp",
+    "original": "asset-originals/grape-powdery-mildew.png",
+    "generator": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. One standalone premium botanical photograph for a plant-health website card. Tall portrait 2:3 composition, the entire image devoted to ONE subject and garden context. A single five-lobed grape leaf with grape vine anatomy and visible irregular white powdery coating over green veins; softly blurred purple grapes and vineyard behind. Soft natural morning light, real plant anatomy, crisp leaf texture, fresh greens, cinematic shallow depth of field. Illustrative educational plant photo. No typography, watermark, UI, frame, collage or panels. Asset grape-powdery-mildew.",
+    "illustrative": true,
+    "visuallyInspected": true
+  },
+  {
+    "name": "healthy-dew-leaf",
+    "file": "public/assets/plants/healthy-dew-leaf.webp",
+    "original": "asset-originals/healthy-dew-leaf.png",
+    "generator": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. One standalone premium botanical photograph for a plant-health website card. Tall portrait 2:3 composition, the entire image devoted to ONE subject and garden context. Extreme macro view of one lush healthy dark green ovate leaf with beautiful luminous veins and sparkling clear dew droplets, dreamy rich green botanical background, premium garden photography. Soft natural morning light, real plant anatomy, crisp leaf texture, fresh greens, cinematic shallow depth of field. Illustrative educational plant photo. No typography, watermark, UI, frame, collage or panels. Asset healthy-dew-leaf.",
+    "illustrative": true,
+    "visuallyInspected": true
+  }
+]

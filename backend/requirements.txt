@@ -1,0 +1,10 @@
+fastapi==0.161.1
+uvicorn==0.54.0
+pydantic==2.14.1
+pydantic-settings==2.16.1
+python-multipart==0.0.32
+Pillow==13.0.0
+numpy==2.5.4
+tensorflow==2.21.0
+google-genai==2.33.0
+redis==8.1.0

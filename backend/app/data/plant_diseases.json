@@ -1,0 +1,297 @@
+[
+  {
+    "slug": "tomato-healthy",
+    "plant": "Tomato",
+    "condition": "Healthy",
+    "class_ids": [
+      "Tomato___healthy"
+    ],
+    "symptoms": [
+      "No obvious disease-like markings in the reference class."
+    ],
+    "care": [
+      "Check both sides of leaves for changes.",
+      "Follow crop-specific watering, light, and soil guidance."
+    ],
+    "prevention": [
+      "Monitor new growth regularly."
+    ],
+    "sources": [
+      {
+        "title": "Growing tomatoes in home gardens",
+        "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-tomatoes",
+        "publisher": "University of Minnesota Extension"
+      }
+    ],
+    "reviewed_at": "2026-10-23",
+    "attribution": "Curated reference information; these symptoms are not observations of the uploaded photo."
+  },
+  {
+    "slug": "tomato-early-blight",
+    "plant": "Tomato",
+    "condition": "Early Blight",
+    "class_ids": [
+      "Tomato___Early_blight"
+    ],
+    "symptoms": [
+      "Brown leaf spots can form concentric rings.",
+      "Older affected leaves may yellow."
+    ],
+    "care": [
+      "Keep irrigation off leaves where practical.",
+      "Remove affected crop debris and consult local extension guidance."
+    ],
+    "prevention": [
+      "Rotate growing locations and provide adequate spacing."
+    ],
+    "sources": [
+      {
+        "title": "Tomato leaf spot diseases",
+        "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/yard-and-garden-problems/tomato-leaf-spot-diseases",
+        "publisher": "University of Minnesota Extension"
+      }
+    ],
+    "reviewed_at": "2026-10-23",
+    "attribution": "Curated reference information; these symptoms are not observations of the uploaded photo."
+  },
+  {
+    "slug": "tomato-late-blight",
+    "plant": "Tomato",
+    "condition": "Late Blight",
+    "class_ids": [
+      "Tomato___Late_blight"
+    ],
+    "symptoms": [
+      "Irregular water-soaked leaf lesions may enlarge and brown."
+    ],
+    "care": [
+      "Seek prompt confirmation from a local plant specialist.",
+      "Follow local late-blight management guidance."
+    ],
+    "prevention": [
+      "Monitor crops during conditions favorable to late blight."
+    ],
+    "sources": [
+      {
+        "title": "Late blight of tomato and potato",
+        "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management/late-blight",
+        "publisher": "University of Minnesota Extension"
+      }
+    ],
+    "reviewed_at": "2026-10-23",
+    "attribution": "Curated reference information; these symptoms are not observations of the uploaded photo."
+  },
+  {
+    "slug": "potato-healthy",
+    "plant": "Potato",
+    "condition": "Healthy",
+    "class_ids": [
+      "Potato___healthy"
+    ],
+    "symptoms": [
+      "No obvious disease-like markings in the reference class."
+    ],
+    "care": [
+      "Use crop-specific watering and soil guidance."
+    ],
+    "prevention": [
+      "Watch leaves and new growth for changes."
+    ],
+    "sources": [
+      {
+        "title": "Growing potatoes in home gardens",
+        "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-potatoes",
+        "publisher": "University of Minnesota Extension"
+      }
+    ],
+    "reviewed_at": "2026-10-23",
+    "attribution": "Curated reference information; these symptoms are not observations of the uploaded photo."
+  },
+  {
+    "slug": "potato-late-blight",
+    "plant": "Potato",
+    "condition": "Late Blight",
+    "class_ids": [
+      "Potato___Late_blight"
+    ],
+    "symptoms": [
+      "Irregular dark leaf lesions may spread rapidly."
+    ],
+    "care": [
+      "Seek prompt confirmation from a local plant specialist.",
+      "Use local crop-specific management recommendations."
+    ],
+    "prevention": [
+      "Monitor susceptible plants during humid conditions."
+    ],
+    "sources": [
+      {
+        "title": "Late blight of tomato and potato",
+        "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management/late-blight",
+        "publisher": "University of Minnesota Extension"
+      }
+    ],
+    "reviewed_at": "2026-10-23",
+    "attribution": "Curated reference information; these symptoms are not observations of the uploaded photo."
+  },
+  {
+    "slug": "apple-scab",
+    "plant": "Apple",
+    "condition": "Apple Scab",
+    "class_ids": [
+      "Apple___Apple_scab"
+    ],
+    "symptoms": [
+      "Olive or brown spots can appear on leaves and fruit.",
+      "Affected leaves may yellow and fall early."
+    ],
+    "care": [
+      "Remove fallen affected leaves.",
+      "Use suitable pruning to improve airflow."
+    ],
+    "prevention": [
+      "Consider scab-resistant varieties when planting."
+    ],
+    "sources": [
+      {
+        "title": "Apple scab of apples and crabapples",
+        "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/yard-and-garden-problems/apple-scab",
+        "publisher": "University of Minnesota Extension"
+      }
+    ],
+    "reviewed_at": "2026-10-23",
+    "attribution": "Curated reference information; these symptoms are not observations of the uploaded photo."
+  },
+  {
+    "slug": "apple-black-rot",
+    "plant": "Apple",
+    "condition": "Black Rot",
+    "class_ids": [
+      "Apple___Black_rot"
+    ],
+    "symptoms": [
+      "Brown leaf spots and fruit or branch symptoms can occur."
+    ],
+    "care": [
+      "Have new lesions assessed by a local plant specialist.",
+      "Follow crop-specific sanitation guidance."
+    ],
+    "prevention": [
+      "Remove infected material using local pruning and sanitation recommendations."
+    ],
+    "sources": [
+      {
+        "title": "Black rot of apple",
+        "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/yard-and-garden-problems/black-rot-of-apple",
+        "publisher": "University of Minnesota Extension"
+      }
+    ],
+    "reviewed_at": "2026-10-23",
+    "attribution": "Curated reference information; these symptoms are not observations of the uploaded photo."
+  },
+  {
+    "slug": "corn-healthy",
+    "plant": "Corn",
+    "condition": "Healthy",
+    "class_ids": [
+      "Corn_(maize)___healthy"
+    ],
+    "symptoms": [
+      "No obvious disease-like markings in the reference class."
+    ],
+    "care": [
+      "Follow sweet-corn growing guidance for soil, watering, and spacing."
+    ],
+    "prevention": [
+      "Monitor leaves for emerging changes."
+    ],
+    "sources": [
+      {
+        "title": "Growing sweet corn in home gardens",
+        "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-sweet-corn",
+        "publisher": "University of Minnesota Extension"
+      }
+    ],
+    "reviewed_at": "2026-10-23",
+    "attribution": "Curated reference information; these symptoms are not observations of the uploaded photo."
+  },
+  {
+    "slug": "corn-common-rust",
+    "plant": "Corn",
+    "condition": "Common Rust",
+    "class_ids": [
+      "Corn_(maize)___Common_rust_"
+    ],
+    "symptoms": [
+      "Reddish-brown pustules can occur on leaf surfaces."
+    ],
+    "care": [
+      "Monitor symptoms across plants.",
+      "Distinguish common rust from similar leaf diseases with local guidance."
+    ],
+    "prevention": [
+      "Consider resistant hybrids where appropriate."
+    ],
+    "sources": [
+      {
+        "title": "Common rust on corn",
+        "url": "https://extension.umn.edu/agriculture/crop-production/corn/common-rust-on-corn",
+        "publisher": "University of Minnesota Extension"
+      }
+    ],
+    "reviewed_at": "2026-10-23",
+    "attribution": "Curated reference information; these symptoms are not observations of the uploaded photo."
+  },
+  {
+    "slug": "grape-powdery-mildew",
+    "plant": "Grape",
+    "condition": "Powdery Mildew",
+    "class_ids": [],
+    "symptoms": [
+      "White powder-like growth may appear on green tissues."
+    ],
+    "care": [
+      "Confirm the cause with crop-specific guidance before treatment."
+    ],
+    "prevention": [
+      "Monitor adjacent leaves and new growth."
+    ],
+    "educational_only": true,
+    "sources": [
+      {
+        "title": "Grapes: crop-specific pest and disease information",
+        "url": "https://smfarm.cfans.umn.edu/pests-and-diseases/pests-crop-specific-information/grapes",
+        "publisher": "University of Minnesota Extension"
+      }
+    ],
+    "reviewed_at": "2026-10-23",
+    "attribution": "Curated reference information; these symptoms are not observations of the uploaded photo."
+  },
+  {
+    "slug": "grape-black-rot",
+    "plant": "Grape",
+    "condition": "Black Rot",
+    "class_ids": [
+      "Grape___Black_rot"
+    ],
+    "symptoms": [
+      "Tan leaf spots with a darker border may occur.",
+      "Berries can shrivel and darken."
+    ],
+    "care": [
+      "Remove fallen berries and affected crop debris."
+    ],
+    "prevention": [
+      "Consider suitable resistant varieties."
+    ],
+    "sources": [
+      {
+        "title": "Grapes: crop-specific pest and disease information",
+        "url": "https://smfarm.cfans.umn.edu/pests-and-diseases/pests-crop-specific-information/grapes",
+        "publisher": "University of Minnesota Extension"
+      }
+    ],
+    "reviewed_at": "2026-10-23",
+    "attribution": "Curated reference information; these symptoms are not observations of the uploaded photo."
+  }
+]

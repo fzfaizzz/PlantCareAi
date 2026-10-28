@@ -1,0 +1,73 @@
+{
+  "http_status": 200,
+  "elapsed_ms": 8207,
+  "result": {
+    "schema_version": "2.0",
+    "request_id": "b4a3ce31-7777-49e5-8a2c-a6a12771058b",
+    "status": "success",
+    "plant": "Tomato",
+    "plant_scientific_name": "Solanum lycopersicum",
+    "condition": "Early blight",
+    "confidence": null,
+    "general_guidance": [],
+    "general_guidance_source": null,
+    "provider": {
+      "name": "gemini",
+      "model": "gemini-3.1-flash-lite"
+    },
+    "observations": [
+      "Concentric ring patterns on necrotic spots",
+      "Brown lesions",
+      "Chlorosis",
+      "Yellowing of leaf tissue"
+    ],
+    "symptoms": [
+      "Concentric ring patterns on necrotic spots",
+      "Brown lesions",
+      "Chlorosis",
+      "Yellowing of leaf tissue"
+    ],
+    "care": [
+      "Keep irrigation off leaves where practical.",
+      "Remove affected crop debris and consult local extension guidance."
+    ],
+    "prevention": [
+      "Rotate growing locations and provide adequate spacing."
+    ],
+    "uncertainty": "A tentative visual assessment matched an educational care entry; it is not a definitive diagnosis.",
+    "explanation": "Gemini supplied the visible observations and tentative identity. Care information comes from the matched reviewed catalog entry.",
+    "warnings": [
+      "Plant identity and condition are Gemini image-based hypotheses, not a confirmed diagnosis.",
+      "PlantVillage identifiers are educational catalog mappings; no TensorFlow classifier or dataset lookup runs here.",
+      "Image assessment limitation: Only a portion of the plant is visible",
+      "Image assessment limitation: Symptoms on other parts of the plant are not fully assessable"
+    ],
+    "sources": [
+      {
+        "title": "Tomato leaf spot diseases",
+        "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/yard-and-garden-problems/tomato-leaf-spot-diseases",
+        "publisher": "University of Minnesota Extension"
+      }
+    ],
+    "catalog": {
+      "matched": true,
+      "slug": "tomato-early-blight",
+      "plant_village_class": "Tomato___Early_blight",
+      "attribution": "Curated reference information; these symptoms are not observations of the uploaded photo."
+    },
+    "assessment": {
+      "contains_leaf": "yes",
+      "image_quality": "usable",
+      "limitations": [
+        "Only a portion of the plant is visible",
+        "Symptoms on other parts of the plant are not fully assessable"
+      ]
+    },
+    "timings_ms": {
+      "upload": 457,
+      "decode": 2106,
+      "provider": 5482,
+      "total": 8051
+    }
+  }
+}

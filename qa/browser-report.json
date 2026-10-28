@@ -1,0 +1,14 @@
+{
+  "responsive": [],
+  "interactions": [
+    "live search, clear-search focus, category + dropdown filters, empty-state reset, detail modal + Escape",
+    "carousel visible card click opens correct library detail",
+    "carousel dragging, click suppression and momentum after release",
+    "file type, corrupt image, size validation; real file preview, remove, sample preview; demo analysis disabled without fake scan",
+    "mobile menu, keyboard Escape focus restoration, client-side navigation",
+    "honest local-profile flow and browser persistence",
+    "reduced motion disables automatic carousel movement",
+    "real mobile touch swipe drags carousel without unwanted navigation"
+  ],
+  "errors": []
+}

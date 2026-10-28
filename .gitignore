@@ -1,0 +1,30 @@
+node_modules/
+dist/
+.env
+.env.local
+*.log
+
+# Backend secrets, environments, and generated ML artifacts
+**/.env
+**/.env.local
+backend/.venv/
+**/__pycache__/
+**/.pytest_cache/
+*.pyc
+backend/data/
+backend/ml/data/
+backend/ml/artifacts/
+backend/models/*
+!backend/models/.gitkeep
+backend/reports/*
+!backend/reports/.gitkeep
+backend/requirements-resolved.txt
+qa/frontend-before-backend.zip
+
+# Native Streamlit environment and server secrets
+.venv-streamlit/
+.streamlit/secrets.toml
+
+.keras/
+*.zip
+.ui-history/

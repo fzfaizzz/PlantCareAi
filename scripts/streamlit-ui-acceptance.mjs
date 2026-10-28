@@ -1,0 +1,123 @@
+import { chromium } from '@playwright/test';
+import fs from 'node:fs/promises';
+import path from 'node:path';
+const out='qa/controls-review';
+await fs.mkdir(out,{recursive:true});
+const report={started:new Date().toISOString(),url:'http://127.0.0.1:8502',checks:[],layouts:[],errors:[],inference:null};
+const browser=await chromium.launch({channel:'chrome',headless:true});
+const page=await browser.newPage({viewport:{width:1440,height:900},acceptDownloads:true});
+page.on('pageerror',error=>report.errors.push(error.message));
+const check=(name,pass,details={})=>{report.checks.push({name,pass:Boolean(pass),...details});console.log(`${pass?'PASS':'FAIL'} ${name}`);};
+const box=async selector=>{const el=page.locator(selector).first();if(!await el.count())return null;const r=await el.boundingBox();return r?{...r,bottom:r.y+r.height}:null;};
+const exceptions=async()=>page.locator('[data-testid=stException]').allTextContents();
+const settle=async()=>{await page.waitForTimeout(500);const errors=await exceptions();if(errors.length)throw Error(errors.join('\n'));};
+async function layout(label){
+ const data=await page.evaluate(label=>{
+  const rect=selector=>{const el=document.querySelector(selector);if(!el)return null;const r=el.getBoundingClientRect();const c=getComputedStyle(el);return {x:r.x,y:r.y,width:r.width,height:r.height,bottom:r.bottom,display:c.display,position:c.position};};
+  return {label,width:innerWidth,height:innerHeight,documentWidth:document.documentElement.scrollWidth,mainWidth:document.querySelector('[data-testid=stMain]')?.scrollWidth,navbar:rect('.st-key-navbar'),brand:rect('.brand'),links:rect('.st-key-navbar-links'),about:rect('.st-key-navbar-about'),home:rect('.home-stage'),detect:rect('.st-key-detect-page'),heading:rect('.st-key-detect-heading-block'),composition:rect('.st-key-detect-composition'),upload:rect('.st-key-leaf-upload'),cloud:rect('.upload-cloud'),picker:rect('.choose-leaf-control'),features:rect('.st-key-detect-feature-block')};
+ },label);
+ report.layouts.push(data);
+ check(`${label}: no horizontal overflow`,data.documentWidth<=data.width+1 && (!data.mainWidth ||data.mainWidth<=data.width+1),data);
+ return data;
+}
+try {
+ for(let attempt=0;attempt<60;attempt++){try{const response=await fetch(report.url+'/_stcore/health');if(response.ok)break;}catch{}await page.waitForTimeout(500);}
+ await page.goto(report.url,{waitUntil:'domcontentloaded'});
+ await page.getByRole('button',{name:'Home',exact:true}).waitFor({timeout:60000});
+ await page.waitForFunction(()=>document.querySelector('.home-leaf-card')?.style.transform.includes('translate3d'),null,{timeout:30000});
+ await page.waitForTimeout(1000);await settle();
+ check('navbar only Home, Plant Library, About',JSON.stringify(await page.locator('.st-key-navbar button').allTextContents())===JSON.stringify(['Home','Plant Library','About']));
+ let measured=await layout('desktop home');
+ check('desktop navbar center links',Math.abs(measured.links.x+measured.links.width/2-measured.width/2)<5);
+ await page.screenshot({path:`${out}/desktop-home.png`});
+ const firstCard=page.locator('.home-leaf-card').first();
+ const before=await firstCard.boundingBox();await page.waitForTimeout(300);
+ const after=await firstCard.boundingBox();check('carousel auto-scroll moves cards',before&&after&&Math.abs(before.x-after.x)>1,{before,after});
+ const row=await box('.home-carousel');
+ await page.mouse.move(row.x+row.width*.6,row.y+row.height*.5);await page.mouse.down();
+ const dragStart=await firstCard.getAttribute('style');
+ await page.mouse.move(row.x+row.width*.4,row.y+row.height*.5,{steps:8});await page.mouse.up();
+ check('carousel follows drag',dragStart!==await firstCard.getAttribute('style'));
+ await page.getByRole('link',{name:'Detect a Leaf',exact:true}).click();
+ await page.waitForFunction(()=>{const r=document.querySelector('.st-key-detect-page')?.getBoundingClientRect();return r&&Math.abs(r.top)<5;},null,{timeout:20000});
+ await page.locator('input[type=file]').waitFor({state:'attached',timeout:30000});await page.waitForTimeout(400);
+ measured=await layout('desktop detect');
+ check('CTA scrolls to full detection section',measured.detect && Math.abs(measured.detect.y)<5 && measured.detect.height>=measured.height-2,measured.detect);
+ check('one visible image picker',await page.locator('.choose-leaf-control:visible').count()===1);
+ check('upload box has reserved height',measured.upload?.height>230,measured.upload);
+ check('feature row below upload',measured.features && measured.upload && measured.features.y>=measured.upload.bottom-2);
+ check('upload icons decode correctly',await page.locator('.upload-cloud img,.choose-leaf-control img').evaluateAll(images=>images.length===2&&images.every(img=>img.complete&&img.naturalWidth>0)));
+ await page.screenshot({path:`${out}/desktop-detect.png`});
+ const chooserEvent=page.waitForEvent('filechooser');
+ const picker=await box('.choose-leaf-control');await page.mouse.click(picker.x+picker.width/2,picker.y+picker.height/2);
+ const chooser=await chooserEvent;check('visible Choose Leaf Image opens file chooser',Boolean(chooser));
+ await chooser.setFiles({name:'corrupt.jpg',mimeType:'image/jpeg',buffer:Buffer.from('this is not a leaf image')});
+ await page.getByRole('button',{name:'Remove image',exact:true}).waitFor({timeout:20000});
+ check('corrupt image produces a visible error',await page.locator('[data-testid=stAlert]').count()>0 && (await exceptions()).length===0);
+ await page.getByRole('button',{name:'Remove image',exact:true}).click();await settle();
+ await page.locator('input[type=file]').setInputFiles(path.resolve('public/assets/plants/tomato-early-blight.webp'));
+ await page.getByRole('button',{name:'Detect Disease',exact:false}).waitFor({timeout:20000});await settle();
+ check('selected file has no duplicated choose buttons',await page.locator('.choose-leaf-control:visible').count()<=1);
+ check('model selection panel removed',await page.getByRole('radiogroup').count()===0);
+ await page.screenshot({path:`${out}/selected-upload.png`,fullPage:true});
+ const started=Date.now();await page.getByRole('button',{name:'Detect Disease',exact:false}).click();
+ await page.locator('.st-key-analysis-result').waitFor({timeout:120000});
+ await page.getByRole('button',{name:'Download Result',exact:false}).waitFor({timeout:30000});
+ await page.getByRole('button',{name:'Analyse Another Leaf',exact:false}).waitFor({timeout:30000});await settle();
+ report.inference={elapsedMs:Date.now()-started,mode:'Local model through real browser upload; illustrative image, not an accuracy evaluation',result:(await page.locator('.result-summary-copy').innerText()).slice(0,600)};
+ check('real upload produces a result',Boolean(report.inference.result));
+ check('exactly two result actions',JSON.stringify(await page.locator('.st-key-result-actions button').allTextContents())===JSON.stringify(['ecoAnalyse Another Leaf','downloadDownload Result']) || await page.locator('.st-key-result-actions button').count()===2);
+ check('result thumbnails removed',await page.locator('.st-key-result-thumbs,.result-thumbnail').count()===0);
+ check('Share removed',await page.getByRole('button',{name:/Share Result|Share your leaf/}).count()===0);
+ check('model detail panels removed',await page.getByText(/Academic Model & Synopsis|Model Confidence Breakdown|Select Deep Learning Model Engine/).count()===0);
+ check('result action placement under uploaded photo',(await box('.st-key-result-actions')).y>=(await box('.result-photo')).bottom-2);
+ await page.screenshot({path:`${out}/desktop-result.png`,fullPage:true});
+ const downloadEvent=page.waitForEvent('download');await page.getByRole('button',{name:'Download Result',exact:false}).click();
+ const download=await downloadEvent;await download.saveAs(`${out}/downloaded-result.html`);
+ const html=await fs.readFile(`${out}/downloaded-result.html`,'utf8');
+ check('download contains a full result document',html.startsWith('<!doctype html>')&&html.includes('Detection Result')&&html.includes('Sources'));
+ for(const [width,height] of [[390,844],[320,700]]){
+  await page.setViewportSize({width,height});await page.waitForTimeout(600);
+  await layout(`${width} result`);
+  const picture=await box('.result-photo'),actions=await box('.st-key-result-actions');
+  check(`${width}: result buttons below photo`,actions.y>=picture.bottom-2,{picture,actions});
+  check(`${width}: result actions fit viewport`,actions.x>=-1&&actions.x+actions.width<=width+1);
+  await page.screenshot({path:`${out}/result-${width}.png`,fullPage:true});
+ }
+ await page.setViewportSize({width:1440,height:900});
+ await page.getByRole('button',{name:'Analyse Another Leaf',exact:false}).click();
+ await page.waitForFunction(()=>!document.querySelector('.st-key-analysis-result')&&document.querySelectorAll('.st-key-leaf-upload input[type=file]').length===1,null,{timeout:15000});await settle();
+ check('Analyse Another Leaf resets uploader',await page.locator('.st-key-analysis-result').count()===0&&await page.locator('input[type=file]').count()===1);
+ await page.getByRole('button',{name:'Spotted leaf (Early Blight)',exact:true}).click();
+ await page.getByRole('button',{name:'Detect Disease',exact:false}).waitFor({timeout:20000});await settle();
+ check('sample image selection works',await page.getByRole('button',{name:'Detect Disease',exact:false}).count()===1);
+ await page.getByRole('button',{name:'Remove',exact:true}).click();
+ await page.waitForFunction(()=>document.querySelectorAll('.choose-leaf-control').length===1&&document.querySelectorAll('.st-key-leaf-upload input[type=file]').length===1,null,{timeout:20000});await settle();
+ check('Remove clears selected image',await page.locator('.choose-leaf-control:visible').count()===1);
+ await page.getByRole('button',{name:'Plant Library',exact:true}).click();await page.getByRole('heading',{name:'Plant Disease Library'}).waitFor();await settle();
+ await page.getByRole('textbox').first().fill('early blight');await page.getByRole('textbox').first().press('Enter');
+ await page.waitForTimeout(1000);await settle();
+ check('library search filters results',await page.getByRole('button',{name:/View guide/}).count()===1,{buttons:await page.getByRole('button',{name:/View guide/}).allTextContents()});
+ await page.getByRole('button',{name:'About',exact:true}).click();await page.getByRole('heading',{name:/Our Purpose is/}).waitFor();await settle();
+ check('About button opens About',await page.getByRole('button',{name:'Try Disease Detection',exact:false}).count()>0);
+ for(const [width,height] of [[768,1024],[390,844],[320,700]]){
+  await page.setViewportSize({width,height});
+  await page.getByRole('button',{name:'Home',exact:true}).click();await page.locator('.home-stage').waitFor();await settle();
+  await page.locator('[data-testid=stMain]').evaluate(el=>el.scrollTo({top:0,behavior:'instant'}));await page.waitForTimeout(500);
+  await layout(`${width} home`);await page.screenshot({path:`${out}/home-${width}.png`});
+  await page.getByRole('link',{name:'Detect a Leaf',exact:true}).click();
+ await page.waitForFunction(()=>{const r=document.querySelector('.st-key-detect-page')?.getBoundingClientRect();return r&&Math.abs(r.top)<5;},null,{timeout:20000});
+ await page.locator('input[type=file]').waitFor({state:'attached',timeout:30000});await page.waitForTimeout(400);
+  const mobile=await layout(`${width} detect`);
+  check(`${width}: detect full viewport`,mobile.detect?.height>=height-2);
+  check(`${width}: upload and features do not overlap`,mobile.features && mobile.upload && mobile.features.y>=mobile.upload.bottom-2);
+  check(`${width}: one uncut picker`,mobile.picker && mobile.upload && mobile.picker.x>=mobile.upload.x-1 && mobile.picker.x+mobile.picker.width<=mobile.upload.x+mobile.upload.width+1);
+  await page.screenshot({path:`${out}/detect-${width}.png`});
+ }
+ await page.setViewportSize({width:1440,height:900});await page.getByRole('button',{name:'Home',exact:true}).click();await settle();
+ check('no browser JavaScript errors',report.errors.length===0,{errors:report.errors});
+}catch(error){report.fatal=error.stack||String(error);console.error(report.fatal);await page.screenshot({path:`${out}/failure.png`,fullPage:true}).catch(()=>{});}
+finally{report.finished=new Date().toISOString();await fs.writeFile(`${out}/report.json`,JSON.stringify(report,null,2));await browser.close();}
+const failed=report.checks.filter(c=>!c.pass);
+console.log(JSON.stringify({passed:report.checks.length-failed.length,failed:failed.map(c=>c.name),fatal:report.fatal,inference:report.inference},null,2));
+if(failed.length||report.fatal)process.exitCode=1;

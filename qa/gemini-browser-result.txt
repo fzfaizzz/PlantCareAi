@@ -1,0 +1,40 @@
+AI image assessment
+AI interpretation
+
+Possible plant: Tomato
+
+Possible condition: Early blight
+
+A tentative visual assessment matched an educational care entry; it is not a definitive diagnosis.
+
+Gemini supplied the visible observations and tentative identity. Care information comes from the matched reviewed catalog entry.
+
+Visible observations
+Concentric ring patterns within necrotic lesions
+Chlorosis (yellowing) of leaf tissue
+Necrotic spots
+Lesions coalescing
+
+Google Gemini's interpretation of this image; observations may be incomplete.
+
+Keep in mind
+Plant identity and condition are Gemini image-based hypotheses, not a confirmed diagnosis.
+PlantVillage identifiers are educational catalog mappings; no TensorFlow classifier or dataset lookup runs here.
+Image assessment limitation: Diagnosis based solely on visual symptoms
+Image assessment limitation: Cannot rule out co-occurring pathogens or nutrient deficiencies
+General care
+Keep irrigation off leaves where practical.
+Remove affected crop debris and consult local extension guidance.
+Prevention
+Rotate growing locations and provide adequate spacing.
+
+Care guidance comes from the matched condition catalog and its listed references. A catalog match is not a confirmed diagnosis.
+
+Care references
+Tomato leaf spot diseases
+University of Minnesota Extension
+About this assessment
+
+Informational guidance, not a confirmed diagnosis. A healthy-looking leaf does not rule out diseases, pests or growing problems.
+
+Reference: dbebc5a2-3515-4dba-a558-f29dcfce6107

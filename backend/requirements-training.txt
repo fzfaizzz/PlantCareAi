@@ -1,0 +1,10 @@
+# Exact versions shared with serving. Python 3.12 or 3.13, 64-bit.
+# Native Windows: CPU only. Colab/Linux GPU: install matching CUDA-enabled
+# TensorFlow separately if the runtime does not already provide a working GPU.
+tensorflow==2.21.0
+numpy==2.5.4
+Pillow==13.0.0
+tensorflow-datasets==4.9.10
+# TFDS import uses generated metadata protocol buffers and its own deps.
+# No scikit-learn/matplotlib dependency: evaluation computes auditable metrics
+# directly and saves full ordered confusion matrices as JSON.

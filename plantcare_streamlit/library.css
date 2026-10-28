@@ -1,0 +1,112 @@
+/* Local library styles: native controls and cards share one calm visual system. */
+.st-key-library-page {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 30px 12px 40px;
+}
+.library-heading { margin: 5px 0 22px; }
+.library-heading h1 {
+  margin: 0 0 10px;
+  padding: 0;
+  color: #102b20;
+  font-size: clamp(32px, 3.4vw, 48px);
+  font-weight: 700;
+  letter-spacing: -.035em;
+  line-height: 1.12;
+}
+.library-heading p { margin: 0; color: #637068; font-size: 16px; line-height: 1.55; }
+.st-key-library-filters { padding: 0; margin: 0; }
+.st-key-library-filters [data-testid="stHorizontalBlock"] { gap: 20px; }
+.st-key-library-filters label p { font-size: 13px; font-weight: 600; color: #304b3a; }
+.st-key-library-filters [data-baseweb="input"],
+.st-key-library-filters [data-baseweb="select"] > div {
+  border-radius: 12px !important;
+  background: #ffffffed !important;
+  border: 1px solid #dce7d9 !important;
+  min-height: 46px;
+}
+.st-key-library-page [data-testid="stCaptionContainer"] { color: #6a786e; font-size: 12px; }
+.st-key-library-grid {
+  display: grid !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px !important;
+  align-items: stretch;
+}
+/* Streamlit may insert a vertical block inside the keyed container. */
+.st-key-library-grid > [data-testid="stVerticalBlock"]:not([class*="st-key-library-card-"]) {
+  display: contents !important;
+}
+[class*="st-key-library-card-"] {
+  min-width: 0;
+  height: 100%;
+  padding: 0 0 16px !important;
+  gap: 0 !important;
+  border: 1px solid #e0e8dc !important;
+  border-radius: 18px !important;
+  background: #fffffff5;
+  box-shadow: 0 4px 15px #183e2305;
+  overflow: hidden;
+  transition: border-color .2s ease, box-shadow .2s ease;
+}
+[class*="st-key-library-card-"]:hover { border-color: #b8cdb5 !important; box-shadow: 0 8px 24px #183e230b; }
+[class*="st-key-library-card-"] > [data-testid="stVerticalBlock"] { gap: 0; padding: 0; }
+[class*="st-key-library-card-"] [data-testid="stElementContainer"] { min-width: 0; }
+.library-guide-card { overflow: hidden; }
+.library-guide-photo { position: relative; height: 200px; overflow: hidden; background: #e9efdf; }
+.library-guide-photo img { width: 100%; height: 100%; object-fit: cover; object-position: center; display: block; }
+.library-guide-status {
+  position: absolute;
+  top: 13px;
+  left: 13px;
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 10px;
+  border-radius: 8px;
+  background: #fffffff2;
+  color: #334e3d;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.3;
+}
+.library-guide-status.healthy { color: #0a5a39; background: #f0faecf5; }
+.library-guide-copy { padding: 18px 18px 15px; min-height: 142px; }
+.library-guide-crop { display: block; font-size: 12px; font-weight: 600; color: #647965; margin-bottom: 6px; }
+.library-guide-copy h2 { margin: 0; padding: 0; font-size: 23px; font-weight: 650; line-height: 1.2; color: #113f2b; }
+.library-guide-copy p { margin: 9px 0 0; color: #657066; font-size: 14px; line-height: 1.55; }
+[class*="st-key-library-card-"] [data-testid="stButton"] { padding: 0 18px; margin-top: auto; }
+[class*="st-key-library-card-"] [data-testid="stButton"] > button {
+  width: 100%;
+  min-height: 42px;
+  border: 1px solid #d5e3ce;
+  border-radius: 10px !important;
+  color: #164832;
+  background: #f0f6e9;
+  box-shadow: none;
+  margin: 0;
+}
+[class*="st-key-library-card-"] [data-testid="stButton"] > button:hover { background: #e5efda; border-color: #a9c29c; transform: none; }
+[class*="st-key-library-card-"] [data-testid="stButton"] > button p { font-size: 13px; font-weight: 600; }
+.st-key-library-empty { border-radius: 16px; padding: 28px !important; background: #ffffffd9; }
+.st-key-library-empty h3 { font-size: 22px; }
+@media (max-width: 1000px) {
+  .st-key-library-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px !important; }
+  .st-key-library-page { padding-top: 24px; }
+  .library-guide-copy { min-height: 136px; }
+}
+@media (max-width: 620px) {
+  .st-key-library-page { padding: 18px 0 28px; }
+  .library-heading { margin-bottom: 15px; }
+  .library-heading p { font-size: 14px; }
+  .st-key-library-filters [data-testid="stHorizontalBlock"] { gap: 12px; flex-wrap: wrap; }
+  .st-key-library-filters [data-testid="stColumn"] { min-width: 100% !important; width: 100% !important; flex: 1 1 100% !important; }
+  .st-key-library-grid { grid-template-columns: minmax(0, 1fr); gap: 18px !important; }
+  .library-guide-photo { height: 210px; }
+  .library-guide-copy { min-height: 0; padding: 17px 18px; }
+  .library-guide-copy h2 { font-size: 22px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  [class*="st-key-library-card-"] { transition: none; }
+}

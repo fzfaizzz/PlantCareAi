@@ -1,0 +1,13 @@
+import { useLayoutEffect, useRef, useState } from 'react';
+import { BookOpen, Leaf, LockKeyhole, ScanLine, Sprout } from 'lucide-react';
+import { BotanicalDecorations, HandArrow, Scribble } from '../App';
+import ImageUploader from '../components/ImageUploader';
+import assets from '../data/plantAssets';
+export default function DetectPage() {
+ const [sampleRequest,setSampleRequest]=useState(null), pageRef=useRef(null);
+ useLayoutEffect(()=>{const page=pageRef.current,uploader=page.querySelector('.image-uploader');const update=()=>page.style.setProperty('--uploader-height',`${uploader.getBoundingClientRect().height}px`);const observer=new ResizeObserver(update);observer.observe(uploader);update();return()=>observer.disconnect();},[]);
+ const samples=[['sample-leaf-spotted','Spotted leaf'],['sample-leaf-healthy','Healthy leaf'],['sample-leaf-closeup','Dewy close-up']];
+ return <div ref={pageRef} className="detect-page page-enter"><BotanicalDecorations variant="detect-decor"/><section className="detect-hero"><h1 tabIndex="-1"><span>Detect Plant Diseases</span><span>with a Single Leaf Photo</span></h1><p className="hero-description">Upload a leaf image to identify possible plant conditions<br className="desktop-break"/> and explore helpful care guidance.</p></section><div className="upload-composition"><aside className="sample-decoration" aria-label="Try an illustrative sample"><span className="handwritten upload-note">Upload<br/>a leaf<HandArrow/></span><div className="sample-photos">{samples.map(([name,label],i)=><button key={name} style={{'--sample-i':i}} onClick={()=>setSampleRequest({url:assets[name],name:label,token:Date.now()})} aria-label={`Preview illustrative sample: ${label}`}><img src={assets[name]} alt={`AI-generated ${label.toLowerCase()} sample`} width="160" height="200"/></button>)}</div><p>Try an illustrative sample <span>↗</span></p><HandArrow className="sample-arrow" flip/></aside><ImageUploader sampleRequest={sampleRequest}/><div className="detect-botanical" aria-hidden="true"><img src={assets['reference-detect-hero']} alt="" width="560" height="780"/><Scribble/><span className="handwritten">Healthy<br/>Plants<br/>Happier<br/>Tomorrow</span></div></div><section className="detect-features" aria-label="A thoughtful approach to plant health">{[[ScanLine,'A closer look','Your leaf, clearly in focus'],[Leaf,'Plant health library','Explore common conditions'],[BookOpen,'Care guidance','Learn what to look for']].map(([Icon,title,text])=><div key={title}><span className="feature-icon"><Icon size={25}/></span><span><strong>{title}</strong><small>{text}</small></span></div>)}</section></div>;
+}
+
+

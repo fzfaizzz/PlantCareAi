@@ -1,0 +1,10 @@
+{
+  "fixtureNotice": "Explicit controlled Playwright response only; no real analysis backend exists.",
+  "passes": [],
+  "failures": [
+    "page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:5173/\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:5173/\", waiting until \"networkidle\"\u001b[22m\n\n    at C:\\Users\\akhta\\Downloads\\PlantCareAi\\tests\\reference-regressions.mjs:59:14"
+  ],
+  "pageErrors": [],
+  "passed": false,
+  "testServerStopped": true
+}

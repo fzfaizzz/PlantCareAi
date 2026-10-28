@@ -1,0 +1,31 @@
+{
+  "timestamp": "2026-10-24T08:23:26.481Z",
+  "port": 8501,
+  "consoleErrors": [],
+  "pageErrors": [],
+  "pagesVisited": [
+    {
+      "page": "Home",
+      "status": "OK"
+    },
+    {
+      "page": "Plant Library",
+      "status": "OK"
+    },
+    {
+      "page": "About",
+      "status": "OK"
+    },
+    {
+      "page": "Result Dashboard",
+      "status": "OK"
+    }
+  ],
+  "actionsTested": [],
+  "screenshots": [
+    "qa/browser-home.png",
+    "qa/browser-library.png",
+    "qa/browser-about.png",
+    "qa/browser-result.png"
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "generator": "built-in image_gen",
+  "assetCount": 12,
+  "assets": [
+    {
+      "name": "home-leaf-left",
+      "transparent": true,
+      "prompt": "Use case: photorealistic-natural. Asset type: decorative botanical website cutout. One natural leafy green branch entering from upper left and extending diagonally down-right, 5-7 elegant lanceolate mature green leaves with clear veins, realistic soft edge detail. A loosely composed garden branch with some leaves soft focus; fully isolated on genuinely transparent background. Soft diffused morning daylight, organic chlorophyll tones, premium garden editorial photography. Canvas portrait 2:3, branch fills canvas yet no awkward truncations except the stem at upper left. No text, interface, border, shadow rectangle, collage, plastic, artificial leaf anatomy.",
+      "mode": "built-in image_gen",
+      "sourcePath": "C:\\Users\\akhta\\.codex\\generated_images\\01a162e1-9511-7d10-990f-a3aadebe0564\\exec-48d7be73-a679-4dc5-874e-d7df327fbe5d.png",
+      "originalPath": "C:\\Users\\akhta\\Downloads\\PlantCareAi\\asset-originals\\home-leaf-left.png",
+      "webpPath": "C:\\Users\\akhta\\Downloads\\PlantCareAi\\public\\assets\\plants\\home-leaf-left.webp",
+      "sourceSize": [
+        1024,
+        1536
+      ],
+      "optimizedSize": [
+        800,
+        1200
+      ],
+      "alphaRange": [
+        0,
+        254
+      ],
+      "bytes": 172640
+    },
+    {
+      "name": "home-leaf-right",
+      "transparent": true,
+      "prompt": "Use case: photorealistic-natural. Asset type: decorative botanical website cutout. One distinct natural leafy branch entering from upper right and extending down-left, 6 broad oval green leaves and one small new leaf, delicate connecting brown-green stems, realistic soft focus on furthest leaves. Fully isolated on genuinely transparent background. Soft diffused morning daylight, deep and pale botanical greens, premium garden editorial photography. Portrait 2:3, branch arranged to frame the right edge of a website while leaving its left side open. No text, interface, frame, collage, rectangle backdrop, fake plastic leaves.",
+      "mode": "built-in image_gen",
+      "sourcePath": "C:\\Users\\akhta\\.codex\\generated_images\\01a162e1-9511-7d10-990f-a3aadebe0564\\exec-445d5c29-5ae0-4407-b651-28362f61b244.png",
+      "originalPath": "C:\\Users\\akhta\\Downloads\\PlantCareAi\\asset-originals\\home-leaf-right.png",
+      "webpPath": "C:\\Users\\akhta\\Downloads\\PlantCareAi\\public\\assets\\plants\\home-leaf-right.webp",
+      "sourceSize": [
+        1024,
+        1536
+      ],
+      "optimizedSize": [
+        800,
+        1200
+      ],
+      "alphaRange": [
+        0,
+        254
+      ],
+      "bytes": 158126
+    },
+    {
+      "name": "home-foliage-bottom-left",
+      "transparent": true,
+      "prompt": "Use case: photorealistic-natural. Asset type: lower-left website decoration, botanical cutout. A lush cluster of 8 graceful fresh garden leaves attached coherently to slender stems sweeping upward and right from the lower-left corner, some foreground leaves softly defocused, lively olive and forest greens. Genuinely transparent background, no soil or pot. Landscape 3:2 composition. Soft morning daylight with delicate translucent leaf margins, premium garden editorial photography, natural veins and organic irregularity. No words, interface, border, collage, fake plastic, disconnected leaves.",
+      "mode": "built-in image_gen",
+      "sourcePath": "C:\\Users\\akhta\\.codex\\generated_images\\01a162e1-9511-7d10-990f-a3aadebe0564\\exec-93071e6e-e473-48a6-9645-8a0429155551.png",
+      "originalPath": "C:\\Users\\akhta\\Downloads\\PlantCareAi\\asset-originals\\home-foliage-bottom-left.png",
+      "webpPath": "C:\\Users\\akhta\\Downloads\\PlantCareAi\\public\\assets\\plants\\home-foliage-bottom-left.webp",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "optimizedSize": [
+        1200,
+        800
+      ],
+      "alphaRange": [
+        0,
+        254
+      ],
+      "bytes": 182978
+    },
+    {
+      "name": "home-foliage-bottom-right",
+      "transparent": true,
+      "prompt": "Use case: photorealistic-natural. Asset type: lower-right website decoration, botanical cutout. A different lush cluster of broad garden leaves on a curved green twig sweeping upward and left from the lower-right corner, 7-9 coherent leaves in varied sizes, foreground leaves softly defocused. Deep green and fresh lime highlights. Genuinely transparent background, no soil or pot. Landscape 3:2 composition. Soft morning daylight, premium natural garden editorial photography, organic veins and slightly imperfect edges. No words, interface, border, collage, fake plastic, disconnected leaves.",
+      "mode": "built-in image_gen",
+      "sourcePath": "C:\\Users\\akhta\\.codex\\generated_images\\01a162e1-9511-7d10-990f-a3aadebe0564\\exec-3088a127-64cb-4e3b-b13b-32f13e273f17.png",
+      "originalPath": "C:\\Users\\akhta\\Downloads\\PlantCareAi\\asset-originals\\home-foliage-bottom-right.png",
+      "webpPath": "C:\\Users\\akhta\\Downloads\\PlantCareAi\\public\\assets\\plants\\home-foliage-bottom-right.webp",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "optimizedSize": [
+        1200,
+        800
+      ],
+      "alphaRange": [
+        0,
+        254
+      ],
+      "bytes": 136324
+    },
+    {
+      "name": "home-botanical-background",
+      "transparent": false,
+      "prompt": "Use case: photorealistic-natural. Asset type: ultra-subtle wide botanical website background. Very pale warm off-white background exact approximate #F5F8EF, extremely faint soft-focus green foliage only at the outer corners and side edges, large completely open clear negative space across center 75 percent. Landscape 16:9, airy premium garden editorial photography atmosphere. Nearly white, restrained green diffusion, gentle natural morning luminosity. This is an atmospheric background texture not a website screenshot. No text, interface, border, hard foliage silhouettes, dark patches, collage.",
+      "mode": "built-in image_gen",
+      "sourcePath": "C:\\Users\\akhta\\.codex\\generated_images\\01a162e1-9511-7d10-990f-a3aadebe0564\\exec-c9ebe926-9db5-47da-ac5b-ff8f498af935.png",
+      "originalPath": "C:\\Users\\akhta\\Downloads\\PlantCareAi\\asset-originals\\home-botanical-background.png",
+      "webpPath": "C:\\Users\\akhta\\Downloads\\PlantCareAi\\public\\assets\\plants\\home-botanical-background.webp",
+      "sourceSize": [
+        1672,
+        941
+      ],
+      "optimizedSize": [
+        1200,
+        675
+      ],
+      "alphaRange": null,
+      "bytes": 15480
+    },
+    {
+      "name": "sample-leaf-healthy",
+      "transparent": false,
+      "prompt": "Use case: photorealistic-natural. Asset type: vertical plant disease demonstration photo. Close macro portrait of one vibrant healthy tomato leaf attached to its stem, deeply detailed serrated shape, rich green tissue, strong natural veins and no disease marks; shallow-focus sunlit tomato garden in background. Vertical 3:4 crop, single dominant leaf fills 75 percent, completely recognizable leaf shape. Soft natural morning light, premium garden editorial photo, realistic anatomy and texture. No text, interface, border, hands, collage, artificial plastic.",
+      "mode": "built-in image_gen",
+      "sourcePath": "C:\\Users\\akhta\\.codex\\generated_images\\01a162e1-9511-7d10-990f-a3aadebe0564\\exec-abf3f839-584b-4ef4-8afd-ab5d6f8fb795.png",
+      "originalPath": "C:\\Users\\akhta\\Downloads\\PlantCareAi\\asset-originals\\sample-leaf-healthy.png",
+      "webpPath": "C:\\Users\\akhta\\Downloads\\PlantCareAi\\public\\assets\\plants\\sample-leaf-healthy.webp",
+      "sourceSize": [
+        1086,
+        1448
+      ],
+      "optimizedSize": [
+        900,
+        1200
+      ],
+      "alphaRange": null,
+      "bytes": 216394
+    },
+    {
+      "name": "sample-leaf-spotted",
+      "transparent": false,
+      "prompt": "Use case: photorealistic-natural. Asset type: vertical plant disease demonstration photo. Close macro portrait of a tomato leaf attached to plant, visible irregular tan and dark brown spots with faint concentric rings and yellowing margins showing fungal leaf blight; shallow-focus green garden and tiny blurred red tomato in background. Vertical 3:4 crop, single dominant leaf fills 75 percent, scientifically plausible marks without exaggerated decay. Soft natural morning light, premium garden editorial photo, detailed organic veins. No text, interface, border, hands, collage, artificial plastic.",
+      "mode": "built-in image_gen",
+      "sourcePath": "C:\\Users\\akhta\\.codex\\generated_images\\01a162e1-9511-7d10-990f-a3aadebe0564\\exec-011700b2-7a38-4f31-bb27-853ea5972b11.png",
+      "originalPath": "C:\\Users\\akhta\\Downloads\\PlantCareAi\\asset-originals\\sample-leaf-spotted.png",
+      "webpPath": "C:\\Users\\akhta\\Downloads\\PlantCareAi\\public\\assets\\plants\\sample-leaf-spotted.webp",
+      "sourceSize": [
+        1086,
+        1448
+      ],
+      "optimizedSize": [
+        900,
+        1200
+      ],
+      "alphaRange": null,
+      "bytes": 213036
+    },
+    {
+      "name": "sample-leaf-closeup",
+      "transparent": false,
+      "prompt": "Use case: photorealistic-natural. Asset type: vertical botanical leaf demonstration photograph. Extreme macro of a healthy lush green serrated garden leaf covered with individual fresh dew droplets, clear branching veins and delicate texture in sharp central focus, bokeh garden behind. Vertical 3:4 crop; diagonal leaf spans frame, rich dark emerald with soft lime backlight. Premium garden editorial photography, soft natural morning illumination, anatomically coherent leaf structure and realistic droplets. No text, interface, border, hands, collage, artificial plastic.",
+      "mode": "built-in image_gen",
+      "sourcePath": "C:\\Users\\akhta\\.codex\\generated_images\\01a162e1-9511-7d10-990f-a3aadebe0564\\exec-a9ba560c-fd60-45c6-b07f-bc5126b9afe5.png",
+      "originalPath": "C:\\Users\\akhta\\Downloads\\PlantCareAi\\asset-originals\\sample-leaf-closeup.png",
+      "webpPath": "C:\\Users\\akhta\\Downloads\\PlantCareAi\\public\\assets\\plants\\sample-leaf-closeup.webp",
+      "sourceSize": [
+        1086,
+        1448
+      ],
+      "optimizedSize": [
+        900,
+        1200
+      ],
+      "alphaRange": null,
+      "bytes": 229400
+    },
+    {
+      "name": "detect-preview-botanical",
+      "transparent": true,
+      "prompt": "Use case: photorealistic-natural. Asset type: tall botanical website hero cutout. Dramatic tall healthy tomato branch with 6 lush green serrated leaves on a connected stem, including one large dew-covered leaf angled toward viewer, a few smaller leaves extending outward, realistic delicate droplets. Genuinely transparent background. Portrait 2:3 composition, plant rising from bottom and naturally leaning slightly left, entire main leaf visible. Soft diffused morning daylight, detailed veins and glossy-but-natural texture, premium garden editorial photograph. No words, interface, border, vase, pot, collage, synthetic plastic.",
+      "mode": "built-in image_gen",
+      "sourcePath": "C:\\Users\\akhta\\.codex\\generated_images\\01a162e1-9511-7d10-990f-a3aadebe0564\\exec-d99f4b38-4e57-4538-8ffe-57c6f85ab063.png",
+      "originalPath": "C:\\Users\\akhta\\Downloads\\PlantCareAi\\asset-originals\\detect-preview-botanical.png",
+      "webpPath": "C:\\Users\\akhta\\Downloads\\PlantCareAi\\public\\assets\\plants\\detect-preview-botanical.webp",
+      "sourceSize": [
+        1024,
+        1536
+      ],
+      "optimizedSize": [
+        800,
+        1200
+      ],
+      "alphaRange": [
+        0,
+        254
+      ],
+      "bytes": 276144
+    },
+    {
+      "name": "about-botanical-hero",
+      "transparent": true,
+      "prompt": "Use case: photorealistic-natural. Asset type: large editorial botanical website hero cutout. One magnificent natural green branch with 5-7 lush detailed broad leaves, a large central leaf facing camera with crisp deep green veins and fresh dew drops, smaller leaves radiating gracefully from connected coherent stem, new leaf buds near top. Genuinely transparent background. Almost square 1:1 composition, full branch canopy visible and short stem exits at bottom, elegant asymmetrical layout. Soft natural morning side light, realistic botanical anatomy, premium garden editorial photography. No text, UI, border, pot, collage, plastic shine.",
+      "mode": "built-in image_gen",
+      "sourcePath": "C:\\Users\\akhta\\.codex\\generated_images\\01a162e1-9511-7d10-990f-a3aadebe0564\\exec-0019e6af-ca58-46c4-a462-028f92b04850.png",
+      "originalPath": "C:\\Users\\akhta\\Downloads\\PlantCareAi\\asset-originals\\about-botanical-hero.png",
+      "webpPath": "C:\\Users\\akhta\\Downloads\\PlantCareAi\\public\\assets\\plants\\about-botanical-hero.webp",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "optimizedSize": [
+        1200,
+        1200
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "bytes": 337298
+    },
+    {
+      "name": "about-foliage-decoration",
+      "transparent": true,
+      "prompt": "Use case: photorealistic-natural. Asset type: small isolated botanical website decorative sprig. A delicate fresh green sprig with exactly three natural oval leaves of different sizes on one coherent thin stem, graceful slight upward bend, leaf veins finely visible. Genuinely transparent background. Portrait 4:5 composition, complete leaf silhouettes with breathing room. Soft natural daylight, realistic organic texture, premium garden editorial photo. No text, interface, border, vase, pot, collage, plastic.",
+      "mode": "built-in image_gen",
+      "sourcePath": "C:\\Users\\akhta\\.codex\\generated_images\\01a162e1-9511-7d10-990f-a3aadebe0564\\exec-0f3c9de9-505c-4cc6-8e6c-304194a2a3ad.png",
+      "originalPath": "C:\\Users\\akhta\\Downloads\\PlantCareAi\\asset-originals\\about-foliage-decoration.png",
+      "webpPath": "C:\\Users\\akhta\\Downloads\\PlantCareAi\\public\\assets\\plants\\about-foliage-decoration.webp",
+      "sourceSize": [
+        1122,
+        1402
+      ],
+      "optimizedSize": [
+        960,
+        1200
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "bytes": 135106
+    },
+    {
+      "name": "dataset-botanical-image",
+      "transparent": false,
+      "prompt": "Use case: photorealistic-natural. Asset type: wide botanical editorial photograph for dataset section of a plant health website. Close side view of a lush healthy green tomato branch beaded with fresh morning dew, a long serrated leaf reaching from left toward right, detailed droplets and vein textures in central focus; softly blurred garden foliage and gentle morning sun behind. Landscape 16:9, darker foliage on left with lighter luminous bokeh on right, premium natural garden editorial photography. No text, interface, border, hands, collage, plastic or artificial anatomy.",
+      "mode": "built-in image_gen",
+      "sourcePath": "C:\\Users\\akhta\\.codex\\generated_images\\01a162e1-9511-7d10-990f-a3aadebe0564\\exec-884a65ec-4e77-4beb-a313-c26a9625774a.png",
+      "originalPath": "C:\\Users\\akhta\\Downloads\\PlantCareAi\\asset-originals\\dataset-botanical-image.png",
+      "webpPath": "C:\\Users\\akhta\\Downloads\\PlantCareAi\\public\\assets\\plants\\dataset-botanical-image.webp",
+      "sourceSize": [
+        1672,
+        941
+      ],
+      "optimizedSize": [
+        1200,
+        675
+      ],
+      "alphaRange": null,
+      "bytes": 154316
+    }
+  ]
+}

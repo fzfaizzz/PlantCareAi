@@ -1,0 +1,1247 @@
+{
+  "description": "Manual visual measurement of the four actual supplied raster references. Coordinates are native image pixels, origin top-left. Element boxes are visible bounds unless marked layout; typography is estimated from raster appearance rather than asserted font metadata.",
+  "measuredOn": "2026-10-22",
+  "tolerance": {
+    "majorGeometryPixels": 2,
+    "decorativeAndRotatedBoundsPixels": 4,
+    "fontSizePixels": 2,
+    "detectNativeFontSizePixels": 1
+  },
+  "conventions": {
+    "home": {
+      "nativeWidth": 1586,
+      "nativeHeight": 992
+    },
+    "library": {
+      "nativeWidth": 1536,
+      "nativeHeight": 1024
+    },
+    "detect": {
+      "nativeWidth": 657,
+      "nativeHeight": 435,
+      "desktopArtboardWidth": 1314,
+      "desktopArtboardHeight": 870,
+      "desktopCoordinateMultiplier": 2
+    },
+    "about": {
+      "nativeWidth": 1536,
+      "nativeHeight": 1024
+    },
+    "desktopScaling": "For available width >=821 CSS px, u=availableWidth/routeArtboardWidth. Scale all route-native desktop geometry together; retain document flow below reference. At <=820px use an independently reflowed mobile layout."
+  },
+  "home": {
+    "reference": "C:/Users/akhta/Downloads/ChatGPT Image Oct 21, 2026, 06_51_58 PM.png",
+    "header": {
+      "visibleHeight": 86,
+      "brand": {
+        "x": 97,
+        "y": 23,
+        "width": 207,
+        "height": 42
+      },
+      "brandIcon": {
+        "x": 97,
+        "y": 23,
+        "width": 39,
+        "height": 42
+      },
+      "wordmark": {
+        "x": 145,
+        "y": 31,
+        "width": 159,
+        "height": 29
+      },
+      "activePill": {
+        "x": 484,
+        "y": 23,
+        "width": 89,
+        "height": 39
+      },
+      "navLabelCenters": [
+        {
+          "label": "Home",
+          "x": 528,
+          "y": 43
+        },
+        {
+          "label": "Detect Disease",
+          "x": 649,
+          "y": 43
+        },
+        {
+          "label": "Plant Library",
+          "x": 788,
+          "y": 43
+        },
+        {
+          "label": "How It Works",
+          "x": 922,
+          "y": 43
+        },
+        {
+          "label": "About",
+          "x": 1034,
+          "y": 43
+        }
+      ],
+      "login": {
+        "x": 1246,
+        "y": 19,
+        "width": 106,
+        "height": 47
+      },
+      "signup": {
+        "x": 1370,
+        "y": 19,
+        "width": 114,
+        "height": 48
+      },
+      "font": {
+        "brand": 29,
+        "navigation": 16,
+        "buttons": 16
+      }
+    },
+    "badge": {
+      "x": 664,
+      "y": 115,
+      "width": 257,
+      "height": 43
+    },
+    "heading": {
+      "layout": {
+        "x": 361,
+        "y": 171,
+        "width": 873,
+        "height": 177
+      },
+      "lineInk": [
+        {
+          "x": 414,
+          "y": 183,
+          "width": 784,
+          "height": 63
+        },
+        {
+          "x": 365,
+          "y": 267,
+          "width": 863,
+          "height": 80
+        }
+      ],
+      "text": [
+        "Detect Plant Diseases",
+        "with a Single Leaf Photo"
+      ],
+      "font": {
+        "family": "Inter Tight",
+        "size": 83,
+        "weight": 780,
+        "lineHeight": 85,
+        "letterSpacing": -3.7
+      }
+    },
+    "subtitle": {
+      "layout": {
+        "x": 495,
+        "y": 366,
+        "width": 604,
+        "height": 52
+      },
+      "lineY": [
+        366,
+        398
+      ],
+      "font": {
+        "family": "Inter",
+        "size": 22,
+        "lineHeight": 32
+      },
+      "text": [
+        "Upload a leaf image to identify supported plant diseases,",
+        "explore symptoms, and discover helpful plant-care guidance."
+      ]
+    },
+    "annotations": {
+      "scan": {
+        "x": 1346,
+        "y": 279,
+        "width": 100,
+        "height": 66
+      },
+      "scanArrow": {
+        "x": 1310,
+        "y": 329,
+        "width": 180,
+        "height": 95
+      },
+      "headlineStrokes": {
+        "x": 295,
+        "y": 315,
+        "width": 49,
+        "height": 74
+      },
+      "freeToTry": {
+        "x": 510,
+        "y": 873,
+        "width": 119,
+        "height": 37
+      },
+      "freeArrow": {
+        "x": 587,
+        "y": 840,
+        "width": 58,
+        "height": 39
+      }
+    },
+    "carousel": {
+      "clip": {
+        "x": 0,
+        "y": 423,
+        "width": 1586,
+        "height": 381
+      },
+      "visibleCards": [
+        {
+          "label": "Tomato — Healthy",
+          "bounds": {
+            "x": -2,
+            "y": 425,
+            "width": 216,
+            "height": 378
+          }
+        },
+        {
+          "label": "Tomato — Early Blight",
+          "bounds": {
+            "x": 230,
+            "y": 448,
+            "width": 213,
+            "height": 341
+          }
+        },
+        {
+          "label": "Potato — Late Blight",
+          "bounds": {
+            "x": 459,
+            "y": 462,
+            "width": 211,
+            "height": 318
+          }
+        },
+        {
+          "label": "Apple — Apple Scab",
+          "bounds": {
+            "x": 687,
+            "y": 468,
+            "width": 212,
+            "height": 308
+          }
+        },
+        {
+          "label": "Corn — Common Rust",
+          "bounds": {
+            "x": 915,
+            "y": 464,
+            "width": 212,
+            "height": 315
+          }
+        },
+        {
+          "label": "Grape — Powdery Mildew",
+          "bounds": {
+            "x": 1143,
+            "y": 451,
+            "width": 215,
+            "height": 337
+          }
+        },
+        {
+          "label": "Explore — More Plants",
+          "bounds": {
+            "x": 1376,
+            "y": 423,
+            "width": 212,
+            "height": 381
+          }
+        }
+      ],
+      "cornerRadius": 15,
+      "nominalGap": 17,
+      "labelFont": 18,
+      "conditionFont": 14,
+      "playCircleDiameter": 42,
+      "note": "Bounds include perspective/rotation and edge clipping. Preserve exact seven-card initial composition before applying gentle motion."
+    },
+    "cta": {
+      "button": {
+        "x": 665,
+        "y": 839,
+        "width": 257,
+        "height": 69
+      },
+      "outline": {
+        "x": 656,
+        "y": 831,
+        "width": 275,
+        "height": 85
+      },
+      "fontSize": 20,
+      "iconSize": 31,
+      "text": "Detect a Leaf"
+    },
+    "edgeFoliage": {
+      "topLeft": {
+        "x": -18,
+        "y": 35,
+        "width": 207,
+        "height": 266
+      },
+      "topRight": {
+        "x": 1330,
+        "y": 93,
+        "width": 256,
+        "height": 265
+      },
+      "bottomLeft": {
+        "x": -20,
+        "y": 831,
+        "width": 374,
+        "height": 161
+      },
+      "bottomRight": {
+        "x": 1274,
+        "y": 840,
+        "width": 312,
+        "height": 152
+      }
+    }
+  },
+  "library": {
+    "reference": "C:/Users/akhta/Downloads/ChatGPT Image Oct 21, 2026, 06_51_36 PM.png",
+    "header": {
+      "visibleHeight": 72,
+      "brand": {
+        "x": 182,
+        "y": 17,
+        "width": 203,
+        "height": 37
+      },
+      "activePill": {
+        "x": 693,
+        "y": 16,
+        "width": 129,
+        "height": 40
+      },
+      "navLabelCenters": [
+        {
+          "label": "Home",
+          "x": 526,
+          "y": 36
+        },
+        {
+          "label": "Detect Disease",
+          "x": 628,
+          "y": 36
+        },
+        {
+          "label": "Plant Library",
+          "x": 756,
+          "y": 36
+        },
+        {
+          "label": "How It Works",
+          "x": 882,
+          "y": 36
+        },
+        {
+          "label": "About",
+          "x": 978,
+          "y": 36
+        }
+      ],
+      "login": {
+        "x": 1189,
+        "y": 16,
+        "width": 94,
+        "height": 40
+      },
+      "signup": {
+        "x": 1297,
+        "y": 16,
+        "width": 106,
+        "height": 40
+      },
+      "font": {
+        "brand": 29,
+        "navigation": 14,
+        "buttons": 14
+      }
+    },
+    "badge": {
+      "x": 657,
+      "y": 79,
+      "width": 224,
+      "height": 39
+    },
+    "heading": {
+      "layout": {
+        "x": 469,
+        "y": 125,
+        "width": 625,
+        "height": 74
+      },
+      "ink": {
+        "x": 470,
+        "y": 134,
+        "width": 621,
+        "height": 64
+      },
+      "font": {
+        "family": "Inter Tight",
+        "size": 66,
+        "weight": 780,
+        "lineHeight": 74
+      },
+      "text": "Plant Disease Library"
+    },
+    "subtitle": {
+      "layout": {
+        "x": 410,
+        "y": 205,
+        "width": 717,
+        "height": 24
+      },
+      "fontSize": 19,
+      "lineHeight": 25,
+      "text": "Explore common plant diseases with high-quality images, symptoms and care tips."
+    },
+    "annotations": {
+      "titleStrokes": {
+        "x": 374,
+        "y": 125,
+        "width": 51,
+        "height": 65
+      },
+      "sprig": {
+        "x": 1216,
+        "y": 123,
+        "width": 87,
+        "height": 105
+      },
+      "handwriting": {
+        "x": 1314,
+        "y": 105,
+        "width": 112,
+        "height": 89
+      },
+      "arrow": {
+        "x": 1409,
+        "y": 120,
+        "width": 63,
+        "height": 74
+      }
+    },
+    "search": {
+      "x": 209,
+      "y": 244,
+      "width": 887,
+      "height": 48
+    },
+    "dropdown": {
+      "x": 1112,
+      "y": 244,
+      "width": 220,
+      "height": 48
+    },
+    "searchFont": 16,
+    "searchIcon": {
+      "x": 233,
+      "y": 257,
+      "width": 20,
+      "height": 20
+    },
+    "chips": {
+      "top": 310,
+      "height": 46,
+      "fontSize": 16,
+      "items": [
+        {
+          "label": "All",
+          "x": 84,
+          "width": 121
+        },
+        {
+          "label": "Tomato",
+          "x": 219,
+          "width": 137
+        },
+        {
+          "label": "Potato",
+          "x": 369,
+          "width": 127
+        },
+        {
+          "label": "Apple",
+          "x": 509,
+          "width": 124
+        },
+        {
+          "label": "Corn",
+          "x": 646,
+          "width": 114
+        },
+        {
+          "label": "Grape",
+          "x": 773,
+          "width": 126
+        },
+        {
+          "label": "Pepper",
+          "x": 913,
+          "width": 136
+        },
+        {
+          "label": "Strawberry",
+          "x": 1062,
+          "width": 165
+        },
+        {
+          "label": "Healthy",
+          "x": 1241,
+          "width": 155
+        }
+      ]
+    },
+    "grid": {
+      "columns": 5,
+      "columnX": [
+        45,
+        339,
+        632,
+        925,
+        1218
+      ],
+      "columnWidth": 274,
+      "columnGap": 20,
+      "rowY": [
+        377,
+        689
+      ],
+      "cardHeight": 294,
+      "rowGap": 18,
+      "photoVisibleHeight": 195,
+      "infoTopOffset": 184,
+      "infoHeight": 110,
+      "radius": 15,
+      "status": {
+        "offsetX": 13,
+        "offsetY": 11,
+        "height": 31,
+        "fontSize": 14
+      },
+      "title": {
+        "offsetX": 66,
+        "offsetY": 199,
+        "fontSize": 16,
+        "lineHeight": 21
+      },
+      "description": {
+        "offsetX": 19,
+        "offsetY": 250,
+        "fontSize": 13,
+        "lineHeight": 18
+      },
+      "arrow": {
+        "offsetX": 224,
+        "offsetY": 204,
+        "diameter": 39
+      },
+      "labels": [
+        [
+          "Tomato",
+          "Healthy"
+        ],
+        [
+          "Tomato",
+          "Early Blight"
+        ],
+        [
+          "Tomato",
+          "Late Blight"
+        ],
+        [
+          "Potato",
+          "Healthy"
+        ],
+        [
+          "Potato",
+          "Late Blight"
+        ],
+        [
+          "Apple",
+          "Apple Scab"
+        ],
+        [
+          "Apple",
+          "Black Rot"
+        ],
+        [
+          "Corn",
+          "Healthy"
+        ],
+        [
+          "Corn",
+          "Common Rust"
+        ],
+        [
+          "Grape",
+          "Powdery Mildew"
+        ]
+      ]
+    },
+    "note": "Third card literal reference label is Tomato / Late Blight. This differs from the earlier master prompt's Leaf Spot example; resolve content identity consistently without inventing a verified classifier class."
+  },
+  "detect": {
+    "reference": "C:/Users/akhta/Downloads/ChatGPT Image Oct 21, 2026, 06_51_21 PM.png",
+    "coordinatesAre": "Original657x435; multiply every coordinate and font size by2 for1314x870 desktop artboard.",
+    "header": {
+      "visibleHeight": 37,
+      "brand": {
+        "x": 62,
+        "y": 8,
+        "width": 97,
+        "height": 21
+      },
+      "activePill": {
+        "x": 243,
+        "y": 8,
+        "width": 72,
+        "height": 22
+      },
+      "navLabelCenters": [
+        {
+          "label": "Home",
+          "x": 223,
+          "y": 19
+        },
+        {
+          "label": "Detect Disease",
+          "x": 278,
+          "y": 19
+        },
+        {
+          "label": "Plant Library",
+          "x": 346,
+          "y": 19
+        },
+        {
+          "label": "How It Works",
+          "x": 409,
+          "y": 19
+        },
+        {
+          "label": "About",
+          "x": 461,
+          "y": 19
+        }
+      ],
+      "login": {
+        "x": 526,
+        "y": 7,
+        "width": 48,
+        "height": 23
+      },
+      "signup": {
+        "x": 583,
+        "y": 7,
+        "width": 56,
+        "height": 23
+      },
+      "font": {
+        "brand": 14,
+        "navigation": 7,
+        "buttons": 7
+      }
+    },
+    "badge": {
+      "x": 269,
+      "y": 43,
+      "width": 125,
+      "height": 20
+    },
+    "heading": {
+      "layout": {
+        "x": 189,
+        "y": 69,
+        "width": 285,
+        "height": 60
+      },
+      "lineInk": [
+        {
+          "x": 197,
+          "y": 74,
+          "width": 271,
+          "height": 23
+        },
+        {
+          "x": 191,
+          "y": 103,
+          "width": 281,
+          "height": 25
+        }
+      ],
+      "font": {
+        "family": "Inter Tight",
+        "size": 27,
+        "weight": 780,
+        "lineHeight": 29
+      },
+      "text": [
+        "Detect Plant Diseases",
+        "with a Single Leaf Photo"
+      ]
+    },
+    "subtitle": {
+      "layout": {
+        "x": 212,
+        "y": 139,
+        "width": 239,
+        "height": 23
+      },
+      "fontSize": 8.5,
+      "lineHeight": 12,
+      "text": [
+        "Upload a leaf image to identify plant diseases using AI.",
+        "Get instant results with care recommendations."
+      ]
+    },
+    "upload": {
+      "panel": {
+        "x": 197,
+        "y": 181,
+        "width": 269,
+        "height": 153
+      },
+      "radius": 11,
+      "cloud": {
+        "x": 315,
+        "y": 204,
+        "width": 33,
+        "height": 27
+      },
+      "heading": {
+        "x": 254,
+        "y": 242,
+        "width": 156,
+        "height": 12
+      },
+      "headingFontSize": 11,
+      "support": {
+        "x": 282,
+        "y": 261,
+        "width": 100,
+        "height": 9
+      },
+      "supportFontSize": 9,
+      "button": {
+        "x": 256,
+        "y": 279,
+        "width": 150,
+        "height": 28
+      },
+      "buttonFontSize": 9,
+      "supportedText": {
+        "x": 263,
+        "y": 316,
+        "width": 137,
+        "height": 7
+      },
+      "supportedFontSize": 7,
+      "privacy": {
+        "x": 233,
+        "y": 345,
+        "width": 198,
+        "height": 11
+      },
+      "privacyFontSize": 7
+    },
+    "samples": [
+      {
+        "bounds": {
+          "x": 56,
+          "y": 194,
+          "width": 72,
+          "height": 88
+        },
+        "rotationDegrees": -8
+      },
+      {
+        "bounds": {
+          "x": 124,
+          "y": 182,
+          "width": 57,
+          "height": 70
+        },
+        "rotationDegrees": 10
+      },
+      {
+        "bounds": {
+          "x": 99,
+          "y": 248,
+          "width": 58,
+          "height": 68
+        },
+        "rotationDegrees": -8
+      }
+    ],
+    "annotations": {
+      "uploadNote": {
+        "x": 105,
+        "y": 136,
+        "width": 49,
+        "height": 35
+      },
+      "uploadArrow": {
+        "x": 153,
+        "y": 149,
+        "width": 36,
+        "height": 29
+      },
+      "rightNote": {
+        "x": 494,
+        "y": 270,
+        "width": 59,
+        "height": 56
+      },
+      "rightStrokes": {
+        "x": 533,
+        "y": 327,
+        "width": 25,
+        "height": 18
+      }
+    },
+    "decoration": {
+      "left": {
+        "x": -20,
+        "y": 13,
+        "width": 120,
+        "height": 136
+      },
+      "right": {
+        "x": 511,
+        "y": 49,
+        "width": 146,
+        "height": 333
+      },
+      "bottomLeft": {
+        "x": 0,
+        "y": 333,
+        "width": 158,
+        "height": 102
+      }
+    },
+    "features": {
+      "strip": {
+        "x": 65,
+        "y": 372,
+        "width": 558,
+        "height": 47
+      },
+      "iconBoxes": [
+        {
+          "x": 83,
+          "y": 380,
+          "width": 31,
+          "height": 31
+        },
+        {
+          "x": 264,
+          "y": 380,
+          "width": 31,
+          "height": 31
+        },
+        {
+          "x": 445,
+          "y": 380,
+          "width": 31,
+          "height": 31
+        }
+      ],
+      "textX": [
+        121,
+        303,
+        485
+      ],
+      "titleY": 385,
+      "titleFontSize": 8,
+      "subtitleY": 399,
+      "subtitleFontSize": 7
+    },
+    "note": "Reference contains '38+ Plant Diseases' and privacy/storage claims. Keep measured feature geometry but do not present unverified counts or backend promises as implemented facts."
+  },
+  "about": {
+    "reference": "C:/Users/akhta/Downloads/ChatGPT Image Oct 21, 2026, 06_51_05 PM.png",
+    "header": {
+      "visibleHeight": 70,
+      "brand": {
+        "x": 203,
+        "y": 15,
+        "width": 187,
+        "height": 36
+      },
+      "activePill": {
+        "x": 924,
+        "y": 14,
+        "width": 82,
+        "height": 38
+      },
+      "navLabelCenters": [
+        {
+          "label": "Home",
+          "x": 537,
+          "y": 33
+        },
+        {
+          "label": "Detect Disease",
+          "x": 635,
+          "y": 33
+        },
+        {
+          "label": "Plant Library",
+          "x": 755,
+          "y": 33
+        },
+        {
+          "label": "How It Works",
+          "x": 863,
+          "y": 33
+        },
+        {
+          "label": "About",
+          "x": 965,
+          "y": 33
+        }
+      ],
+      "login": {
+        "x": 1157,
+        "y": 14,
+        "width": 88,
+        "height": 38
+      },
+      "signup": {
+        "x": 1258,
+        "y": 14,
+        "width": 100,
+        "height": 38
+      },
+      "font": {
+        "brand": 28,
+        "navigation": 13,
+        "buttons": 14
+      }
+    },
+    "hero": {
+      "badge": {
+        "x": 254,
+        "y": 89,
+        "width": 171,
+        "height": 35
+      },
+      "heading": {
+        "layout": {
+          "x": 254,
+          "y": 135,
+          "width": 407,
+          "height": 109
+        },
+        "lineInk": [
+          {
+            "x": 255,
+            "y": 142,
+            "width": 356,
+            "height": 41
+          },
+          {
+            "x": 254,
+            "y": 199,
+            "width": 399,
+            "height": 41
+          }
+        ],
+        "font": {
+          "family": "Inter Tight",
+          "size": 54,
+          "weight": 780,
+          "lineHeight": 57
+        },
+        "text": [
+          "Our Purpose is",
+          "Healthier Plants"
+        ]
+      },
+      "body": {
+        "x": 254,
+        "y": 265,
+        "width": 430,
+        "height": 103
+      },
+      "bodyFontSize": 15,
+      "bodyLineHeight": 22,
+      "primaryButton": {
+        "x": 254,
+        "y": 390,
+        "width": 222,
+        "height": 48
+      },
+      "secondaryButton": {
+        "x": 491,
+        "y": 390,
+        "width": 190,
+        "height": 48
+      },
+      "buttonFontSize": 14,
+      "communityAvatars": {
+        "x": 254,
+        "y": 455,
+        "width": 105,
+        "height": 32
+      },
+      "communityText": {
+        "x": 374,
+        "y": 465,
+        "width": 309,
+        "height": 14
+      },
+      "communityFontSize": 13,
+      "bottomY": 517
+    },
+    "visual": {
+      "leafBounds": {
+        "x": 764,
+        "y": 109,
+        "width": 589,
+        "height": 383
+      },
+      "backdrop": {
+        "x": 877,
+        "y": 94,
+        "width": 398,
+        "height": 400
+      },
+      "annotation": {
+        "x": 1276,
+        "y": 104,
+        "width": 148,
+        "height": 120
+      },
+      "arrow": {
+        "x": 1359,
+        "y": 222,
+        "width": 65,
+        "height": 58
+      },
+      "callout": {
+        "x": 766,
+        "y": 365,
+        "width": 79,
+        "height": 47
+      },
+      "calloutLine": {
+        "x": 838,
+        "y": 367,
+        "width": 56,
+        "height": 5
+      },
+      "headlineStrokes": {
+        "x": 696,
+        "y": 124,
+        "width": 36,
+        "height": 41
+      }
+    },
+    "purpose": {
+      "sectionTop": 517,
+      "sectionBottomApprox": 687,
+      "iconBoxes": [
+        {
+          "x": 155,
+          "y": 549,
+          "width": 74,
+          "height": 74
+        },
+        {
+          "x": 612,
+          "y": 549,
+          "width": 74,
+          "height": 74
+        },
+        {
+          "x": 1057,
+          "y": 549,
+          "width": 75,
+          "height": 74
+        }
+      ],
+      "headingX": [
+        255,
+        713,
+        1159
+      ],
+      "headingY": 557,
+      "headingFontSize": 21,
+      "bodyY": 592,
+      "bodyFontSize": 13,
+      "bodyLineHeight": 20,
+      "separators": [
+        {
+          "x": 574,
+          "y1": 549,
+          "y2": 667
+        },
+        {
+          "x": 1019,
+          "y1": 549,
+          "y2": 667
+        }
+      ]
+    },
+    "technology": {
+      "title": {
+        "x": 140,
+        "y": 719,
+        "width": 220,
+        "height": 27
+      },
+      "titleFontSize": 12,
+      "body": {
+        "x": 140,
+        "y": 752,
+        "width": 219,
+        "height": 31
+      },
+      "bodyFontSize": 13,
+      "tiles": [
+        {
+          "label": "Python",
+          "bounds": {
+            "x": 425,
+            "y": 712,
+            "width": 136,
+            "height": 103
+          }
+        },
+        {
+          "label": "TensorFlow",
+          "bounds": {
+            "x": 572,
+            "y": 712,
+            "width": 134,
+            "height": 103
+          }
+        },
+        {
+          "label": "OpenCV",
+          "bounds": {
+            "x": 716,
+            "y": 712,
+            "width": 139,
+            "height": 103
+          }
+        },
+        {
+          "label": "React",
+          "bounds": {
+            "x": 866,
+            "y": 712,
+            "width": 147,
+            "height": 103
+          }
+        },
+        {
+          "label": "FastAPI",
+          "bounds": {
+            "x": 1026,
+            "y": 712,
+            "width": 157,
+            "height": 103
+          }
+        },
+        {
+          "label": "Tailwind CSS",
+          "bounds": {
+            "x": 1193,
+            "y": 712,
+            "width": 159,
+            "height": 103
+          }
+        }
+      ],
+      "iconY": 728,
+      "iconSize": 29,
+      "titleY": 770,
+      "subtitleY": 789,
+      "subtitleFontSize": 11
+    },
+    "dataset": {
+      "photoVisibleBounds": {
+        "x": 0,
+        "y": 820,
+        "width": 585,
+        "height": 204
+      },
+      "photoRadius": 27,
+      "photoText": {
+        "x": 70,
+        "y": 913,
+        "width": 163,
+        "height": 63
+      },
+      "photoTextFontSize": 18,
+      "panelVisibleBounds": {
+        "x": 612,
+        "y": 827,
+        "width": 924,
+        "height": 197
+      },
+      "heading": {
+        "x": 645,
+        "y": 848,
+        "width": 214,
+        "height": 27
+      },
+      "headingFontSize": 24,
+      "subtitle": {
+        "x": 646,
+        "y": 878,
+        "width": 573,
+        "height": 15
+      },
+      "subtitleFontSize": 13,
+      "iconBoxes": [
+        {
+          "x": 665,
+          "y": 912,
+          "width": 73,
+          "height": 73
+        },
+        {
+          "x": 1089,
+          "y": 912,
+          "width": 73,
+          "height": 73
+        }
+      ],
+      "articleTitleX": [
+        766,
+        1194
+      ],
+      "articleTitleY": 916,
+      "articleTitleFontSize": 13,
+      "articleBodyY": 939,
+      "articleBodyFontSize": 13,
+      "lineHeight": 18
+    },
+    "note": "Reference lists six technologies and claims a PlantVillage-trained CNN/54,000+ images. Those are visual observations only. Preserve placement while describing actual verified stack/analysis architecture truthfully; do not fabricate model training."
+  }
+}

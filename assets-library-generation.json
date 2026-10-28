@@ -1,0 +1,207 @@
+{
+  "generatedOn": "2026-10-22",
+  "mode": "built-in image_gen",
+  "note": "AI-generated illustrative plant disease and healthy leaf photos; not validated diagnostic reference images.",
+  "assets": [
+    {
+      "name": "tomato-healthy-library",
+      "prompt": "Use case: photorealistic-natural. Asset type: square botanical photograph for a premium PlantCare AI plant disease library card. Primary request: one separate macro garden photograph. Subject: A healthy tomato plant compound leaf, unmistakable tomato leaflet serrations and slightly hairy stem, rich green veined surface with a few fresh dewdrops, garden tomato foliage and softly out-of-focus red tomato behind it. Composition/framing: square 1:1 image, one primary leaf fills about 75 percent of the frame, gently angled, entire leaf readable with detailed botanical anatomy. Lighting/mood: soft natural daylight with luminous green garden bokeh and believable shallow depth of field. Style: refined natural botanical photography, crisp venation, organic textures. Constraints: no text, no UI, no border, no labels, no watermark, no collage, no people; anatomically plausible species; illustrative symptoms, not a verified diagnostic image.",
+      "source": "C:\\Users\\akhta\\.codex\\generated_images\\01a162e0-abd3-7db0-9eb0-417a14124564\\exec-2f7e066e-9152-4476-8fe9-583c914b2d3c.png",
+      "original": "asset-originals/tomato-healthy-library.png",
+      "web": "public/assets/plants/tomato-healthy-library.webp",
+      "mode": "built-in image_gen",
+      "useCase": "photorealistic-natural",
+      "diagnosticStatus": "AI illustrative; not a verified diagnostic image",
+      "visuallyInspected": true,
+      "originalDimensions": [
+        1254,
+        1254
+      ],
+      "webDimensions": [
+        650,
+        650
+      ],
+      "webBytes": 84720
+    },
+    {
+      "name": "tomato-early-blight-library",
+      "prompt": "Use case: photorealistic-natural. Asset type: square botanical photograph for a premium PlantCare AI plant disease library card. Primary request: one separate macro garden photograph. Subject: A tomato compound leaf showing illustrative early blight symptoms: irregular dark brown necrotic patches with concentric target rings and yellowing around lesions, several greener serrated leaflets still present, softly out-of-focus tomato garden behind it. Composition/framing: square 1:1 image, one primary leaf fills about 75 percent of the frame, gently angled, entire leaf readable with detailed botanical anatomy. Lighting/mood: soft natural daylight with luminous green garden bokeh and believable shallow depth of field. Style: refined natural botanical photography, crisp venation, organic textures. Constraints: no text, no UI, no border, no labels, no watermark, no collage, no people; anatomically plausible species; illustrative symptoms, not a verified diagnostic image.",
+      "source": "C:\\Users\\akhta\\.codex\\generated_images\\01a162e0-abd3-7db0-9eb0-417a14124564\\exec-aa76c3c8-e915-4e02-b2be-7d95c4a33e73.png",
+      "original": "asset-originals/tomato-early-blight-library.png",
+      "web": "public/assets/plants/tomato-early-blight-library.webp",
+      "mode": "built-in image_gen",
+      "useCase": "photorealistic-natural",
+      "diagnosticStatus": "AI illustrative; not a verified diagnostic image",
+      "visuallyInspected": true,
+      "originalDimensions": [
+        1254,
+        1254
+      ],
+      "webDimensions": [
+        650,
+        650
+      ],
+      "webBytes": 84920
+    },
+    {
+      "name": "tomato-leaf-spot-library",
+      "prompt": "Use case: photorealistic-natural. Asset type: square botanical photograph for a premium PlantCare AI plant disease library card. Primary request: one separate macro garden photograph. Subject: A tomato compound leaf showing illustrative fungal leaf spot symptoms: many small round brown spots with paler centers, a little yellow haloing, unmistakable serrated tomato leaflets on a hairy green stem, softly out-of-focus garden behind it. Composition/framing: square 1:1 image, one primary leaf fills about 75 percent of the frame, gently angled, entire leaf readable with detailed botanical anatomy. Lighting/mood: soft natural daylight with luminous green garden bokeh and believable shallow depth of field. Style: refined natural botanical photography, crisp venation, organic textures. Constraints: no text, no UI, no border, no labels, no watermark, no collage, no people; anatomically plausible species; illustrative symptoms, not a verified diagnostic image.",
+      "source": "C:\\Users\\akhta\\.codex\\generated_images\\01a162e0-abd3-7db0-9eb0-417a14124564\\exec-447e0ba0-5fa2-4cad-a289-4b082d950411.png",
+      "original": "asset-originals/tomato-leaf-spot-library.png",
+      "web": "public/assets/plants/tomato-leaf-spot-library.webp",
+      "mode": "built-in image_gen",
+      "useCase": "photorealistic-natural",
+      "diagnosticStatus": "AI illustrative; not a verified diagnostic image",
+      "visuallyInspected": true,
+      "originalDimensions": [
+        1254,
+        1254
+      ],
+      "webDimensions": [
+        650,
+        650
+      ],
+      "webBytes": 79326
+    },
+    {
+      "name": "potato-healthy-library",
+      "prompt": "Use case: photorealistic-natural. Asset type: square botanical photograph for a premium PlantCare AI plant disease library card. Primary request: one separate macro garden photograph. Subject: A healthy potato plant compound leaf with broad ovate pointed leaflets and subtly wavy smooth margins, fresh deep green soft matte foliage, natural leaf veins and a few dewdrops, on a living potato plant in a garden. Composition/framing: square 1:1 image, one primary leaf fills about 75 percent of the frame, gently angled, entire leaf readable with detailed botanical anatomy. Lighting/mood: soft natural daylight with luminous green garden bokeh and believable shallow depth of field. Style: refined natural botanical photography, crisp venation, organic textures. Constraints: no text, no UI, no border, no labels, no watermark, no collage, no people; anatomically plausible species; illustrative symptoms, not a verified diagnostic image.",
+      "source": "C:\\Users\\akhta\\.codex\\generated_images\\01a162e0-abd3-7db0-9eb0-417a14124564\\exec-9e333322-55ee-48a9-a6fb-5cf8deb41ce0.png",
+      "original": "asset-originals/potato-healthy-library.png",
+      "web": "public/assets/plants/potato-healthy-library.webp",
+      "mode": "built-in image_gen",
+      "useCase": "photorealistic-natural",
+      "diagnosticStatus": "AI illustrative; not a verified diagnostic image",
+      "visuallyInspected": true,
+      "originalDimensions": [
+        1254,
+        1254
+      ],
+      "webDimensions": [
+        650,
+        650
+      ],
+      "webBytes": 85454
+    },
+    {
+      "name": "potato-late-blight-library",
+      "prompt": "Use case: photorealistic-natural. Asset type: square botanical photograph for a premium PlantCare AI plant disease library card. Primary request: one separate macro garden photograph. Subject: A potato plant compound leaf with broad ovate pointed leaflets showing illustrative late blight symptoms: large irregular dark brown water-soaked necrotic areas extending from the leaf edge inward, subtle pale margins and yellowing, natural green potato garden behind it. Composition/framing: square 1:1 image, one primary leaf fills about 75 percent of the frame, gently angled, entire leaf readable with detailed botanical anatomy. Lighting/mood: soft natural daylight with luminous green garden bokeh and believable shallow depth of field. Style: refined natural botanical photography, crisp venation, organic textures. Constraints: no text, no UI, no border, no labels, no watermark, no collage, no people; anatomically plausible species; illustrative symptoms, not a verified diagnostic image.",
+      "source": "C:\\Users\\akhta\\.codex\\generated_images\\01a162e0-abd3-7db0-9eb0-417a14124564\\exec-2d38937c-fb19-4176-950c-2999771d7f54.png",
+      "original": "asset-originals/potato-late-blight-library.png",
+      "web": "public/assets/plants/potato-late-blight-library.webp",
+      "mode": "built-in image_gen",
+      "useCase": "photorealistic-natural",
+      "diagnosticStatus": "AI illustrative; not a verified diagnostic image",
+      "visuallyInspected": true,
+      "originalDimensions": [
+        1254,
+        1254
+      ],
+      "webDimensions": [
+        650,
+        650
+      ],
+      "webBytes": 97350
+    },
+    {
+      "name": "apple-scab-library",
+      "prompt": "Use case: photorealistic-natural. Asset type: square botanical photograph for a premium PlantCare AI plant disease library card. Primary request: one separate macro garden photograph. Subject: A simple ovate serrated apple tree leaf on a slender branch, showing illustrative apple scab symptoms: scattered dull olive green to brown velvety patches and a few darker lesions with slight yellowing, an indistinct red apple and green orchard bokeh behind it. Composition/framing: square 1:1 image, one primary leaf fills about 75 percent of the frame, gently angled, entire leaf readable with detailed botanical anatomy. Lighting/mood: soft natural daylight with luminous green garden bokeh and believable shallow depth of field. Style: refined natural botanical photography, crisp venation, organic textures. Constraints: no text, no UI, no border, no labels, no watermark, no collage, no people; anatomically plausible species; illustrative symptoms, not a verified diagnostic image.",
+      "source": "C:\\Users\\akhta\\.codex\\generated_images\\01a162e0-abd3-7db0-9eb0-417a14124564\\exec-16e4c624-50ff-45b0-9871-b53bec71b16f.png",
+      "original": "asset-originals/apple-scab-library.png",
+      "web": "public/assets/plants/apple-scab-library.webp",
+      "mode": "built-in image_gen",
+      "useCase": "photorealistic-natural",
+      "diagnosticStatus": "AI illustrative; not a verified diagnostic image",
+      "visuallyInspected": true,
+      "originalDimensions": [
+        1254,
+        1254
+      ],
+      "webDimensions": [
+        650,
+        650
+      ],
+      "webBytes": 83670
+    },
+    {
+      "name": "apple-black-rot-library",
+      "prompt": "Use case: photorealistic-natural. Asset type: square botanical photograph for a premium PlantCare AI plant disease library card. Primary request: one separate macro garden photograph. Subject: An apple tree leaf with natural ovate serrated shape on a slender orchard branch, showing illustrative black rot leaf symptoms: small circular purple-brown spots with tan centers and dark rims, some coalescing necrotic areas, realistic leaf texture, orchard green bokeh and blurred red apple behind. Composition/framing: square 1:1 image, one primary leaf fills about 75 percent of the frame, gently angled, entire leaf readable with detailed botanical anatomy. Lighting/mood: soft natural daylight with luminous green garden bokeh and believable shallow depth of field. Style: refined natural botanical photography, crisp venation, organic textures. Constraints: no text, no UI, no border, no labels, no watermark, no collage, no people; anatomically plausible species; illustrative symptoms, not a verified diagnostic image.",
+      "source": "C:\\Users\\akhta\\.codex\\generated_images\\01a162e0-abd3-7db0-9eb0-417a14124564\\exec-edc1552f-1e15-43c1-93f8-7f5484a5980e.png",
+      "original": "asset-originals/apple-black-rot-library.png",
+      "web": "public/assets/plants/apple-black-rot-library.webp",
+      "mode": "built-in image_gen",
+      "useCase": "photorealistic-natural",
+      "diagnosticStatus": "AI illustrative; not a verified diagnostic image",
+      "visuallyInspected": true,
+      "originalDimensions": [
+        1254,
+        1254
+      ],
+      "webDimensions": [
+        650,
+        650
+      ],
+      "webBytes": 83276
+    },
+    {
+      "name": "corn-healthy-library",
+      "prompt": "Use case: photorealistic-natural. Asset type: square botanical photograph for a premium PlantCare AI plant disease library card. Primary request: one separate macro garden photograph. Subject: A healthy corn plant leaf, unmistakably a long blade with straight parallel veins, fresh vibrant green, gently arching diagonally through the square frame, several tiny dewdrops on a subtly ridged surface, green cornfield bokeh. Composition/framing: square 1:1 image, one primary leaf fills about 75 percent of the frame, gently angled, entire leaf readable with detailed botanical anatomy. Lighting/mood: soft natural daylight with luminous green garden bokeh and believable shallow depth of field. Style: refined natural botanical photography, crisp venation, organic textures. Constraints: no text, no UI, no border, no labels, no watermark, no collage, no people; anatomically plausible species; illustrative symptoms, not a verified diagnostic image.",
+      "source": "C:\\Users\\akhta\\.codex\\generated_images\\01a162e0-abd3-7db0-9eb0-417a14124564\\exec-5ad8a7d1-027c-4827-ac9c-8dd70a99a591.png",
+      "original": "asset-originals/corn-healthy-library.png",
+      "web": "public/assets/plants/corn-healthy-library.webp",
+      "mode": "built-in image_gen",
+      "useCase": "photorealistic-natural",
+      "diagnosticStatus": "AI illustrative; not a verified diagnostic image",
+      "visuallyInspected": true,
+      "originalDimensions": [
+        1254,
+        1254
+      ],
+      "webDimensions": [
+        650,
+        650
+      ],
+      "webBytes": 58480
+    },
+    {
+      "name": "corn-common-rust-library",
+      "prompt": "Use case: photorealistic-natural. Asset type: square botanical photograph for a premium PlantCare AI plant disease library card. Primary request: one separate macro garden photograph. Subject: A corn plant blade with parallel veins showing illustrative common rust symptoms: many small elongated raised cinnamon to orange-brown pustules scattered in rows across the green leaf, leaf extends diagonally from lower left to upper right, cornfield garden bokeh. Composition/framing: square 1:1 image, one primary leaf fills about 75 percent of the frame, gently angled, entire leaf readable with detailed botanical anatomy. Lighting/mood: soft natural daylight with luminous green garden bokeh and believable shallow depth of field. Style: refined natural botanical photography, crisp venation, organic textures. Constraints: no text, no UI, no border, no labels, no watermark, no collage, no people; anatomically plausible species; illustrative symptoms, not a verified diagnostic image.",
+      "source": "C:\\Users\\akhta\\.codex\\generated_images\\01a162e0-abd3-7db0-9eb0-417a14124564\\exec-93914d72-6c29-4188-9200-9e79f8579647.png",
+      "original": "asset-originals/corn-common-rust-library.png",
+      "web": "public/assets/plants/corn-common-rust-library.webp",
+      "mode": "built-in image_gen",
+      "useCase": "photorealistic-natural",
+      "diagnosticStatus": "AI illustrative; not a verified diagnostic image",
+      "visuallyInspected": true,
+      "originalDimensions": [
+        1254,
+        1254
+      ],
+      "webDimensions": [
+        650,
+        650
+      ],
+      "webBytes": 93720
+    },
+    {
+      "name": "grape-powdery-mildew-library",
+      "prompt": "Use case: photorealistic-natural. Asset type: square botanical photograph for a premium PlantCare AI plant disease library card. Primary request: one separate macro garden photograph. Subject: A grapevine leaf with unmistakable broad palmate five-lobed serrated anatomy and radiating veins, showing illustrative powdery mildew symptoms: irregular white powdery fungal coating across parts of the top green surface, a thin vine stem, softly blurred vineyard green bokeh. Composition/framing: square 1:1 image, one primary leaf fills about 75 percent of the frame, gently angled, entire leaf readable with detailed botanical anatomy. Lighting/mood: soft natural daylight with luminous green garden bokeh and believable shallow depth of field. Style: refined natural botanical photography, crisp venation, organic textures. Constraints: no text, no UI, no border, no labels, no watermark, no collage, no people; anatomically plausible species; illustrative symptoms, not a verified diagnostic image.",
+      "source": "C:\\Users\\akhta\\.codex\\generated_images\\01a162e0-abd3-7db0-9eb0-417a14124564\\exec-fd7c472d-18b3-427d-a6be-cc80790ca784.png",
+      "original": "asset-originals/grape-powdery-mildew-library.png",
+      "web": "public/assets/plants/grape-powdery-mildew-library.webp",
+      "mode": "built-in image_gen",
+      "useCase": "photorealistic-natural",
+      "diagnosticStatus": "AI illustrative; not a verified diagnostic image",
+      "visuallyInspected": true,
+      "originalDimensions": [
+        1254,
+        1254
+      ],
+      "webDimensions": [
+        650,
+        650
+      ],
+      "webBytes": 94788
+    }
+  ]
+}

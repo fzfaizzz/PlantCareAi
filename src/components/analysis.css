@@ -1,0 +1,43 @@
+/* Analysis states extend the approved upload geometry without changing its composition. */
+.image-uploader.real-analysis-uploader .preparation-track.is-measured i{animation:none;transition:width .15s linear}
+.image-uploader.real-analysis-uploader .analysis-status{overflow-wrap:anywhere}
+.image-uploader.real-analysis-uploader .upload-privacy{line-height:1.6;align-items:flex-start}
+.image-uploader.real-analysis-uploader .upload-privacy svg{flex-shrink:0;margin-top:2px}
+.image-uploader.real-analysis-uploader .upload-error p{font-size:inherit;line-height:1.6;margin:0}
+.image-uploader.real-analysis-uploader .upload-error small{display:block;margin-top:6px;font-size:10px}
+.image-uploader .real-analysis-result{text-align:left;overflow-wrap:anywhere}
+.image-uploader .real-analysis-result .result-heading{align-items:flex-start}
+.image-uploader .real-analysis-result .result-heading>svg{flex-shrink:0;margin-top:2px;color:#267248}
+.image-uploader .real-analysis-result.is-inconclusive{background:#fffdf2;border-color:#e4d8ad}
+.image-uploader .real-analysis-result.is-inconclusive .result-heading>svg{color:#866919}
+.image-uploader .real-analysis-result .result-heading h2{font-size:clamp(20px,2.2vw,27px);line-height:1.15}
+.image-uploader .real-analysis-result .result-outcome{display:inline-block;margin:12px 0 10px;background:#e9f1df;border-radius:20px;padding:5px 10px;font-size:10px;color:#355a36}
+.image-uploader .real-analysis-result.is-inconclusive .result-outcome{background:#f4eac9;color:#755d22}
+.image-uploader .real-analysis-result .result-plant{font-size:12px;margin-top:6px}
+.image-uploader .real-analysis-result>h3{font-size:22px;line-height:1.2;margin-top:5px}
+.image-uploader .real-analysis-result .result-score{font-size:11px;margin-top:12px}
+.image-uploader .real-analysis-result .result-score-note,.image-uploader .real-analysis-result .result-attribution,.image-uploader .real-analysis-result .result-request-id{font-size:10px;line-height:1.65;color:#697260;margin-top:8px}
+.image-uploader .real-analysis-result .result-explanation,.image-uploader .real-analysis-result .gemini-observations>p:not(.result-attribution){font-size:12px;line-height:1.7;margin-top:12px}
+.image-uploader .real-analysis-result .result-warnings{padding:12px 14px;margin-top:16px;border-radius:10px;background:#f2ebd7;color:#675725}
+.image-uploader .real-analysis-result .result-warnings h4{font-size:12px;margin:0 0 5px}
+.image-uploader .real-analysis-result .result-warnings ul{padding-left:16px;font-size:11px;line-height:1.7}
+.image-uploader .real-analysis-result .gemini-observations{border-top:1px solid #dce5d2;margin-top:18px}
+.image-uploader .real-analysis-result .result-sources a{display:inline-flex;align-items:center;gap:5px;text-decoration:underline;text-underline-offset:3px;color:var(--forest)}
+.image-uploader .real-analysis-result .result-sources small{display:block;font-size:10px;color:#68715f}
+.image-uploader .real-analysis-result .result-model-details{margin-top:20px;border-block:1px solid #dce5d2;padding:12px 0;font-size:11px}
+.image-uploader .real-analysis-result .result-model-details summary{cursor:pointer;font-weight:600;color:var(--forest);padding:3px 0}
+.image-uploader .real-analysis-result .result-model-details dl{margin-top:12px;display:grid;gap:7px}
+.image-uploader .real-analysis-result .result-model-details dl>div{display:flex;gap:14px;justify-content:space-between}
+.image-uploader .real-analysis-result .result-model-details dd{text-align:right;color:#64705c;max-width:65%}
+.image-uploader .real-analysis-result .result-model-details ol{list-style:none;padding:0;display:grid;gap:8px;margin-top:14px}
+.image-uploader .real-analysis-result .result-model-details li{display:flex;align-items:baseline;justify-content:space-between;gap:14px;line-height:1.6}
+.image-uploader .real-analysis-result .result-model-details strong{flex-shrink:0}
+.image-uploader .real-analysis-result .result-disclaimer{line-height:1.7}
+.image-uploader .real-analysis-result .result-request-id{display:block}
+.image-uploader .real-analysis-result>.text-button{margin-top:14px;font-size:11px}
+.image-uploader.real-analysis-uploader .analysis-cancel-note{font-size:10px;line-height:1.6;text-align:center;margin-top:10px;color:#707969}
+.image-uploader.real-analysis-uploader .reading-cancel{font-size:11px;margin:8px auto;display:flex}
+@media(prefers-reduced-motion:reduce){.image-uploader.real-analysis-uploader .preparation-track.is-measured i{transition:none}}
+
+.plant-detail .source-link{display:flex;width:fit-content;margin-top:13px}
+

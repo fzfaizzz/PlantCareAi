@@ -1,0 +1,320 @@
+{
+  "nativeFrames": [
+    {
+      "name": "home",
+      "width": 1586,
+      "height": 992,
+      "boxes": {
+        "badge": {
+          "x": 664,
+          "y": 115,
+          "width": 258,
+          "height": 43
+        },
+        "heading": {
+          "x": 0,
+          "y": 173,
+          "width": 1586,
+          "height": 172
+        },
+        "cards": {
+          "x": 0,
+          "y": 409,
+          "width": 1586,
+          "height": 405
+        },
+        "cta": {
+          "x": 656,
+          "y": 831,
+          "width": 275,
+          "height": 85
+        }
+      }
+    },
+    {
+      "name": "library",
+      "width": 1536,
+      "height": 1024,
+      "boxes": {
+        "badge": {
+          "x": 657,
+          "y": 79,
+          "width": 224,
+          "height": 39
+        },
+        "heading": {
+          "x": 13,
+          "y": 120,
+          "width": 1536,
+          "height": 82
+        },
+        "search": {
+          "x": 209,
+          "y": 244,
+          "width": 887,
+          "height": 48
+        },
+        "dropdown": {
+          "x": 1112,
+          "y": 244,
+          "width": 220,
+          "height": 48
+        },
+        "filters": {
+          "x": 84,
+          "y": 310,
+          "width": 1316,
+          "height": 46
+        },
+        "grid": {
+          "x": 45,
+          "y": 377,
+          "width": 1446,
+          "height": 606
+        },
+        "firstCard": {
+          "x": 45,
+          "y": 377,
+          "width": 273.1875,
+          "height": 294
+        }
+      }
+    },
+    {
+      "name": "detect",
+      "width": 1314,
+      "height": 870,
+      "boxes": {
+        "badge": {
+          "x": 538,
+          "y": 86,
+          "width": 250,
+          "height": 40
+        },
+        "heading": {
+          "x": 0,
+          "y": 136,
+          "width": 1314,
+          "height": 116
+        },
+        "panel": {
+          "x": 394,
+          "y": 362,
+          "width": 536,
+          "height": 306
+        },
+        "button": {
+          "x": 513,
+          "y": 559,
+          "width": 300,
+          "height": 56
+        },
+        "features": {
+          "x": 130,
+          "y": 744,
+          "width": 1116,
+          "height": 94
+        }
+      }
+    },
+    {
+      "name": "about",
+      "width": 1536,
+      "height": 1024,
+      "boxes": {
+        "badge": {
+          "x": 254,
+          "y": 89,
+          "width": 171,
+          "height": 35
+        },
+        "heading": {
+          "x": 254,
+          "y": 134,
+          "width": 520,
+          "height": 116
+        },
+        "primary": {
+          "x": 254,
+          "y": 390,
+          "width": 222,
+          "height": 48
+        },
+        "visual": {
+          "x": 760,
+          "y": 96,
+          "width": 594,
+          "height": 399
+        },
+        "mission": {
+          "x": 0,
+          "y": 517,
+          "width": 1536,
+          "height": 179
+        },
+        "technology": {
+          "x": 140,
+          "y": 712,
+          "width": 1213,
+          "height": 103
+        },
+        "firstTechnology": {
+          "x": 425,
+          "y": 712,
+          "width": 136,
+          "height": 103
+        },
+        "dataset": {
+          "x": 612,
+          "y": 827,
+          "width": 924,
+          "height": 260
+        }
+      }
+    }
+  ],
+  "responsive": [
+    {
+      "name": "home",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "name": "library",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "name": "detect",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "name": "about",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "name": "home",
+      "width": 1024,
+      "overflow": false
+    },
+    {
+      "name": "library",
+      "width": 1024,
+      "overflow": false
+    },
+    {
+      "name": "detect",
+      "width": 1024,
+      "overflow": false
+    },
+    {
+      "name": "about",
+      "width": 1024,
+      "overflow": false
+    },
+    {
+      "name": "home",
+      "width": 821,
+      "overflow": false
+    },
+    {
+      "name": "library",
+      "width": 821,
+      "overflow": false
+    },
+    {
+      "name": "detect",
+      "width": 821,
+      "overflow": false
+    },
+    {
+      "name": "about",
+      "width": 821,
+      "overflow": false
+    },
+    {
+      "name": "home",
+      "width": 820,
+      "overflow": false
+    },
+    {
+      "name": "library",
+      "width": 820,
+      "overflow": false
+    },
+    {
+      "name": "detect",
+      "width": 820,
+      "overflow": false
+    },
+    {
+      "name": "about",
+      "width": 820,
+      "overflow": false
+    },
+    {
+      "name": "home",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "name": "library",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "name": "detect",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "name": "about",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "name": "home",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "name": "library",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "name": "detect",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "name": "about",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "name": "home",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "name": "library",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "name": "detect",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "name": "about",
+      "width": 320,
+      "overflow": false
+    }
+  ],
+  "pageErrors": [],
+  "passed": true
+}

@@ -1,0 +1,25 @@
+{
+  "native_streamlit": true,
+  "date": "2026-10-23T12:55:54.298Z",
+  "errors": [],
+  "layout": [
+    {
+      "label": "home desktop",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "heading": "Detect Plant Diseaseswith a Single Leaf Photo",
+      "errors": 0
+    }
+  ],
+  "live_request": null,
+  "carousel": {
+    "moving": true,
+    "draggable": true
+  },
+  "profile_saved": true,
+  "detect_anchor": -0.203125,
+  "scan_during_request": 1,
+  "live_error": [
+    "The image service is temporarily unavailable. Please try again."
+  ]
+}
